@@ -1,0 +1,28 @@
+{
+  "Version": "0.0.1",
+  "SourceRevision": "9088394f83e513001c44117c7be2cf85bc789f52",
+  "Product": "PolyCAD",
+  "Scope": "Early read-only CAD geometry preview with installer and updater",
+  "Assets": [
+    {
+      "Name": "PolyCAD-0.0.1-setup.exe",
+      "Bytes": 75356639,
+      "Sha256": "22df36f4ee9a4aaacf0713df311cecc3686d35b6c950c2680f72e14d7be12afc"
+    },
+    {
+      "Name": "PolyCAD-0.0.1-maintenance.exe",
+      "Bytes": 109002,
+      "Sha256": "340ec47ddce341a948e2db82163ae326065b5ff4000c7f3d760f4b4d6e0fc49b"
+    },
+    {
+      "Name": "PolyCAD-0.0.1-win-x64.zip",
+      "Bytes": 79239649,
+      "Sha256": "843d9bd3f1cbef8cd4882591a13e2637955b27fb13d9f68268464c8ec99ddf74"
+    },
+    {
+      "Name": "PolyCAD-0.0.1-manifest.json",
+      "Bytes": 74801,
+      "Sha256": "ecc7ca550d04831e44d289193758e9d9a70b4c3203fbadb2115e1a915b6121cb"
+    }
+  ]
+}

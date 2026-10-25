@@ -1,0 +1,16 @@
+PolyCAD 0.0.1 third-party notices
+
+Microsoft .NET Desktop Runtime 10.0.13 / WPF: see licenses/dotnet/.
+SkiaSharp and WPF views 4.153.1: MIT; native Skia and embedded components have
+additional terms. See licenses/skia/LICENSE.txt and THIRD-PARTY-NOTICES.txt.
+OpenTK 4.9.4: MIT; see licenses/opentk/LICENSE.md.
+OpenTK.GLWpfControl 4.3.6: MIT; see licenses/opentk/GLWpfControl-LICENSE.md.
+OpenTK.redist.glfw 3.4.0.44: native GLFW, zlib-style terms; see licenses/glfw/COPYING.md.
+
+Theme resources, dialogs, update engine, installer and package tooling are adapted
+from PolyWriter/PolyPDF with permission of their owner. Earlier MIT-covered portions
+retain their grants; see licenses/POLYPDF-MIT-LEGACY.txt. No old grants are revoked.
+
+Installer: NSIS 3.13, unmodified zlib stub and standard plugins.
+See licenses/nsis/COPYING.txt. No paid SDK, DXF library, 3D kernel or fonts are bundled.
+Generic cube artwork is original temporary project artwork approved by the owner.
