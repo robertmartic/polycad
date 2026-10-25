@@ -6,7 +6,7 @@ A visible Update available action appears when a newer version is found.
 
 Updates come only from robertmartic/polycad GitHub Releases. No private token is embedded in the app.
 Drawings and personal data are never uploaded. Version comparisons are numeric; downgrades are rejected.
-The initial 0.0.1 release is a full baseline. No update is expected until a newer version is published.
+Version 0.0.2 provides a full package and a changed-file delta from the published 0.0.1 baseline.
 
 Installed copies download the update manifest, full portable package or matching file-level delta,
 and a small maintenance installer. GitHub's SHA-256 release digests and every manifest file hash are
@@ -16,8 +16,7 @@ Unsigned packages trust the official GitHub channel; hashes are not an independe
 Installation starts only after Update now. The helper waits for the application to exit, rejects other
 running instances, stages the new tree, verifies target files, switches directories and refreshes Windows
 registration. Registration or verification failures restore the old installation. Preferences, documents,
-install path and shortcut choices are preserved. Version 0.0.1 has no editable/unsaved drawing state;
-the close/update guard is retained for future document editing.
+install path and shortcut choices are preserved. Unsaved drawings require Save, Don't save or Cancel before an update. Cancelling or failing to save keeps the app open and prevents installation.
 
 Keep sibling .PolyCAD-backup-* folders after an interrupted update. A handled error can roll back;
 power loss or forced termination during directory replacement may require the official full installer.

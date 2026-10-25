@@ -1,4 +1,4 @@
-PolyCAD 0.0.1 third-party notices
+PolyCAD 0.0.2 third-party notices
 
 Microsoft .NET Desktop Runtime 10.0.13 / WPF: see licenses/dotnet/.
 SkiaSharp and WPF views 4.153.1: MIT; native Skia and embedded components have
@@ -13,4 +13,4 @@ retain their grants; see licenses/POLYPDF-MIT-LEGACY.txt. No old grants are revo
 
 Installer: NSIS 3.13, unmodified zlib stub and standard plugins.
 See licenses/nsis/COPYING.txt. No paid SDK, DXF library, 3D kernel or fonts are bundled.
-Generic cube artwork is original temporary project artwork approved by the owner.
+PolyCAD logo artwork was supplied and approved by the project owner.

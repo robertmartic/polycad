@@ -1,28 +1,33 @@
 {
-  "Version": "0.0.1",
-  "SourceRevision": "9088394f83e513001c44117c7be2cf85bc789f52",
+  "Version": "0.0.2",
+  "SourceRevision": "1c885a855de0e0836c4571597ed4468222c6d0df",
   "Product": "PolyCAD",
-  "Scope": "Early read-only CAD geometry preview with installer and updater",
+  "Scope": "Native Line/Circle drawing, precise input, safe documents, selection and Undo/Redo",
   "Assets": [
     {
-      "Name": "PolyCAD-0.0.1-setup.exe",
-      "Bytes": 75356639,
-      "Sha256": "22df36f4ee9a4aaacf0713df311cecc3686d35b6c950c2680f72e14d7be12afc"
+      "Name": "PolyCAD-0.0.2-setup.exe",
+      "Bytes": 77492317,
+      "Sha256": "9fcf584742ee6745e5a78c994949106fbd28e2c7c2eea70f809d59df2b0881c7"
     },
     {
-      "Name": "PolyCAD-0.0.1-maintenance.exe",
-      "Bytes": 109002,
-      "Sha256": "340ec47ddce341a948e2db82163ae326065b5ff4000c7f3d760f4b4d6e0fc49b"
+      "Name": "PolyCAD-0.0.2-maintenance.exe",
+      "Bytes": 445740,
+      "Sha256": "679cf1637fc47932edfecdc83feb9fdc77deb94682c648dbe682c0c3a5d37be7"
     },
     {
-      "Name": "PolyCAD-0.0.1-win-x64.zip",
-      "Bytes": 79239649,
-      "Sha256": "843d9bd3f1cbef8cd4882591a13e2637955b27fb13d9f68268464c8ec99ddf74"
+      "Name": "PolyCAD-0.0.2-win-x64.zip",
+      "Bytes": 81043758,
+      "Sha256": "cff1dbde970490d16127a9a019a4f28a8f23f49871b2259787fe27fc5997c149"
     },
     {
-      "Name": "PolyCAD-0.0.1-manifest.json",
-      "Bytes": 74801,
-      "Sha256": "ecc7ca550d04831e44d289193758e9d9a70b4c3203fbadb2115e1a915b6121cb"
+      "Name": "PolyCAD-0.0.2-manifest.json",
+      "Bytes": 74969,
+      "Sha256": "a648d776b207fb58a001b10a4abc3d826780e1af409187ae067314d8bf752fb7"
+    },
+    {
+      "Name": "PolyCAD-0.0.1-to-0.0.2-delta.zip",
+      "Bytes": 2021112,
+      "Sha256": "b57619e9e70f88ceee70a12f62d249ee1284bc05752afbb477130f8185787fa9"
     }
   ]
 }
