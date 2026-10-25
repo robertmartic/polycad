@@ -6,7 +6,7 @@ A visible Update available action appears when a newer version is found.
 
 Updates come only from robertmartic/polycad GitHub Releases. No private token is embedded in the app.
 Drawings and personal data are never uploaded. Version comparisons are numeric; downgrades are rejected.
-Version 0.0.3 provides a full package and a changed-file delta from the published 0.0.2 baseline. Older or modified installations can use the full package.
+Version 0.0.5 provides a full package and a changed-file delta from the published 0.0.3 baseline. Older or modified installations can use the full package.
 
 Installed copies download the update manifest, full portable package or matching file-level delta,
 and a small maintenance installer. GitHub's SHA-256 release digests and every manifest file hash are
@@ -28,3 +28,4 @@ and never removes personal drawings or document recovery.
 
 A real update of the owner's installed application requires confirmation. Development checks use
 separate fixture installations and do not update the owner's apps.
+Recent paths, precision settings and recovery sessions live outside the installed application folder. Updating preserves this data. Save/Don't save/Cancel still applies before replacement; document recovery does not bypass that choice.

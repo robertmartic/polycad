@@ -1,33 +1,33 @@
 {
-  "Version": "0.0.3",
-  "SourceRevision": "3d51398b5c00e433fb69a1897308deeb3968e15b",
+  "Version": "0.0.5",
+  "SourceRevision": "08439e7644371fd6697d437d7ff815d160deb6a7",
   "Product": "PolyCAD",
-  "Scope": "Polyline/Rectangle, precise Move/Copy, window/crossing selection and midpoint snap",
+  "Scope": "Recent files, verified independent recovery snapshots and editor stabilization",
   "Assets": [
     {
-      "Name": "PolyCAD-0.0.3-setup.exe",
-      "Bytes": 77494760,
-      "Sha256": "d6c8f8df1588507faec7bf439677c5b9ec6f321356b38ba5eb3c2c03b304261f"
+      "Name": "PolyCAD-0.0.5-setup.exe",
+      "Bytes": 77539538,
+      "Sha256": "9c8d0f24379667791b78b23ac0f5c570f0484b8bf8668a55d724a771c1a1d890"
     },
     {
-      "Name": "PolyCAD-0.0.3-maintenance.exe",
-      "Bytes": 445740,
-      "Sha256": "aeea568a9c950713b13b8a1454cfedc0a4b664f32134b5c50a08b628ec935af3"
+      "Name": "PolyCAD-0.0.5-maintenance.exe",
+      "Bytes": 445742,
+      "Sha256": "cdd5a4f86a2892fb4b04234fffeef5db385236a80cf925e6b3f45446795ba4ff"
     },
     {
-      "Name": "PolyCAD-0.0.3-win-x64.zip",
-      "Bytes": 81053172,
-      "Sha256": "be2848ed6e54c7dab396304c185062eb75b9df4c8f6eaa22ee66a96585919ded"
+      "Name": "PolyCAD-0.0.5-win-x64.zip",
+      "Bytes": 81078584,
+      "Sha256": "5a91ece539478a9cb84d62876a09b2b66966d28241b858015687c213de8f52c0"
     },
     {
-      "Name": "PolyCAD-0.0.3-manifest.json",
+      "Name": "PolyCAD-0.0.5-manifest.json",
       "Bytes": 74969,
-      "Sha256": "c5318d70f5fbcd9592b066a90ba4f755af67740c90c8bbe263586ea60c22cfbf"
+      "Sha256": "dac6d5cbce15baed0d32170cb29666faaf6c5c01da89e6e2f8d766f9de8035fe"
     },
     {
-      "Name": "PolyCAD-0.0.2-to-0.0.3-delta.zip",
-      "Bytes": 2030525,
-      "Sha256": "cf31aa054e621bf582a75135443c1a624341f382db75256a9e4f28ff163c71ed"
+      "Name": "PolyCAD-0.0.3-to-0.0.5-delta.zip",
+      "Bytes": 2055930,
+      "Sha256": "dc14865c9f78e7ba071435b3549a7d4461a8f968ba4aa577b090ce8e786e9659"
     }
   ]
 }

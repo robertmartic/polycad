@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.0.5
+- Local document recovery, recent drawings and editor stabilization.
+- Open recent drawings, remove selected entries or clear missing paths; the local list keeps up to twelve drawings.
+- Capture committed unsaved changes locally after the first edit and every 60 seconds thereafter, including untitled drawings.
+- Keep two recovery generations where cleanup is available, verify native contents and hashes, and fall back to a previous valid snapshot if the newest is unreadable.
+- Offer abandoned snapshots at startup or through Recover. Open a recovered drawing as a separate unsaved document requiring Save As.
+- Exclude sessions active in another window/process; Later keeps snapshots and Discard removes only the chosen recovery session.
+- Preserve original files and retain recovery when storage is unavailable. Show actionable recovery errors.
+- Remember Ortho, snap choices and snap-grid spacing alongside the existing theme preference.
+- Keep invalid numeric-input messages visible while moving the pointer; snap to pending Polyline vertices for easier closing.
+- Preserve document state, settings and recovery storage during the verified update from 0.0.3.
+
 ## 0.0.3
 - Draw straight Polylines with live preview; Finish keeps them open, Close joins the last vertex to the first, and Escape discards the pending preview.
 - Create Rectangles from opposite corners as editable closed Polylines.

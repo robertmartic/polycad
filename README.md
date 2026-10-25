@@ -1,9 +1,9 @@
-# PolyCAD 0.0.3
+# PolyCAD 0.0.5
 
 Early Windows x64 CAD editor. Free to use; no account, subscription, activation or telemetry.
 
 [Download the installer](https://github.com/robertmartic/polycad/releases/latest).
-Choose PolyCAD-0.0.3-setup.exe under Assets. Portable ZIP is also available.
+Choose PolyCAD-0.0.5-setup.exe under Assets. Portable ZIP is also available.
 
 Create, open and save native .polycad drawings. Draw Lines, Circles, straight Polylines and Rectangles with live preview,
 endpoint/midpoint/center/grid snapping and Ortho. Select objects (Ctrl-click to add/remove), Delete,
@@ -28,7 +28,21 @@ Ctrl+N/O/S: New/Open/Save. Ctrl+Shift+S: Save As. Ctrl+Z/Y: Undo/Redo.
 F: Zoom Extents. G: visual grid. Mouse wheel: zoom at pointer. Middle-drag: pan.
 Choose light/dark themes and optional GPU display in the application.
 
-Recent files, dimensions, DXF and document recovery are not implemented yet. Save your work regularly.
+Recent lists up to twelve successfully opened or saved drawings, with Remove and Remove missing.
+Recovery captures committed changes after the first edit and every 60 seconds while changes remain.
+Each window/document has independent snapshots under LocalAppData/PolyCAD/Recovery.
+Two generations are retained where cleanup is available. Live sessions in other windows are excluded.
+After an unexpected exit, startup offers verified abandoned snapshots. Recover also opens this list.
+Later keeps snapshots; Discard snapshot removes only the selected session after confirmation.
+Recovery opens a separate unsaved drawing requiring Save As; it never silently overwrites the original.
+Unreadable newest snapshots fall back to an earlier verified generation when one is available.
+An unsaved tool preview is not committed geometry and is not included in snapshots.
+Changes since the last completed snapshot may be lost. Recovery is not a substitute for regular Save.
+Successful Save or explicit discard/normal close clears that document's snapshots.
+Recovery failures are shown in Document safety; manual saving remains available.
+Ortho, snap choices and snap-grid spacing are remembered, independently of document geometry.
+
+Dimensions and DXF are not implemented yet.
 The agreed 0.1.0 workflow remains in development.
 
 Windows 10 build 19041 or newer / Windows 11, x64. Self-contained; no separate .NET installation.
