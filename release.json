@@ -1,33 +1,33 @@
 {
-  "Version": "0.0.2",
-  "SourceRevision": "1c885a855de0e0836c4571597ed4468222c6d0df",
+  "Version": "0.0.3",
+  "SourceRevision": "3d51398b5c00e433fb69a1897308deeb3968e15b",
   "Product": "PolyCAD",
-  "Scope": "Native Line/Circle drawing, precise input, safe documents, selection and Undo/Redo",
+  "Scope": "Polyline/Rectangle, precise Move/Copy, window/crossing selection and midpoint snap",
   "Assets": [
     {
-      "Name": "PolyCAD-0.0.2-setup.exe",
-      "Bytes": 77492317,
-      "Sha256": "9fcf584742ee6745e5a78c994949106fbd28e2c7c2eea70f809d59df2b0881c7"
+      "Name": "PolyCAD-0.0.3-setup.exe",
+      "Bytes": 77494760,
+      "Sha256": "d6c8f8df1588507faec7bf439677c5b9ec6f321356b38ba5eb3c2c03b304261f"
     },
     {
-      "Name": "PolyCAD-0.0.2-maintenance.exe",
+      "Name": "PolyCAD-0.0.3-maintenance.exe",
       "Bytes": 445740,
-      "Sha256": "679cf1637fc47932edfecdc83feb9fdc77deb94682c648dbe682c0c3a5d37be7"
+      "Sha256": "aeea568a9c950713b13b8a1454cfedc0a4b664f32134b5c50a08b628ec935af3"
     },
     {
-      "Name": "PolyCAD-0.0.2-win-x64.zip",
-      "Bytes": 81043758,
-      "Sha256": "cff1dbde970490d16127a9a019a4f28a8f23f49871b2259787fe27fc5997c149"
+      "Name": "PolyCAD-0.0.3-win-x64.zip",
+      "Bytes": 81053172,
+      "Sha256": "be2848ed6e54c7dab396304c185062eb75b9df4c8f6eaa22ee66a96585919ded"
     },
     {
-      "Name": "PolyCAD-0.0.2-manifest.json",
+      "Name": "PolyCAD-0.0.3-manifest.json",
       "Bytes": 74969,
-      "Sha256": "a648d776b207fb58a001b10a4abc3d826780e1af409187ae067314d8bf752fb7"
+      "Sha256": "c5318d70f5fbcd9592b066a90ba4f755af67740c90c8bbe263586ea60c22cfbf"
     },
     {
-      "Name": "PolyCAD-0.0.1-to-0.0.2-delta.zip",
-      "Bytes": 2021112,
-      "Sha256": "b57619e9e70f88ceee70a12f62d249ee1284bc05752afbb477130f8185787fa9"
+      "Name": "PolyCAD-0.0.2-to-0.0.3-delta.zip",
+      "Bytes": 2030525,
+      "Sha256": "cf31aa054e621bf582a75135443c1a624341f382db75256a9e4f28ff163c71ed"
     }
   ]
 }

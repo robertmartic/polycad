@@ -1,4 +1,4 @@
-PolyCAD 0.0.2 third-party notices
+PolyCAD 0.0.3 third-party notices
 
 Microsoft .NET Desktop Runtime 10.0.13 / WPF: see licenses/dotnet/.
 SkiaSharp and WPF views 4.153.1: MIT; native Skia and embedded components have

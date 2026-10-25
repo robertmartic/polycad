@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.0.3
+- Draw straight Polylines with live preview; Finish keeps them open, Close joins the last vertex to the first, and Escape discards the pending preview.
+- Create Rectangles from opposite corners as editable closed Polylines.
+- Move and Copy selected Lines, Circles and Polylines with a live preview and exact coordinates, relative offsets or distance.
+- Undo and Redo each completed shape or group transform as a single action. Move preserves object and vertex identities.
+- Select by dragging left-to-right for complete containment, or right-to-left for crossing geometry; Shift/Ctrl adds to the selection.
+- Snap to segment midpoints, including a closed Polyline's closing edge.
+- Keep existing native .polycad files compatible and update from 0.0.2 using a verified changed-file package.
+- Recent files and document recovery remain planned.
+
 ## 0.0.2
 - Draw Lines and Circles with live preview and Escape cancellation.
 - Enter absolute x,y, relative @dx,dy, length or radius in millimeters.
