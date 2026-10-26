@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.6
+- Connect to PolyHUB 0.1.3+ for application discovery, launch and delegated update monitoring.
+- Keep update download controls, Save/Don't save/Cancel and recovery protection in PolyCAD.
+- Report download, preparation, cancellation, verified installation and failure states to PolyHUB.
+- Preserve standalone operation, installation choices, documents, Recent and preferences.
+- Existing installations acquire integration through a one-time update in About > Updates.
+
 ## 0.0.5
 - Local document recovery, recent drawings and editor stabilization.
 - Open recent drawings, remove selected entries or clear missing paths; the local list keeps up to twelve drawings.

@@ -1,33 +1,35 @@
 {
-  "Version": "0.0.5",
-  "SourceRevision": "08439e7644371fd6697d437d7ff815d160deb6a7",
+  "Version": "0.0.6",
+  "SourceRevision": "161058ea3ba645539cce0cb7aceb739cafb5ddb7",
+  "SourceRepository": "robertmartic/polycad-source",
+  "DistributionRepository": "robertmartic/polycad",
   "Product": "PolyCAD",
-  "Scope": "Recent files, verified independent recovery snapshots and editor stabilization",
+  "Scope": "Optional PolyHUB integration with document and recovery protection",
   "Assets": [
     {
-      "Name": "PolyCAD-0.0.5-setup.exe",
-      "Bytes": 77539538,
-      "Sha256": "9c8d0f24379667791b78b23ac0f5c570f0484b8bf8668a55d724a771c1a1d890"
+      "Name": "PolyCAD-0.0.6-setup.exe",
+      "Bytes": 77540543,
+      "Sha256": "56b3d5b5877a7695ed0e94886815f2db05b7f00e4c965bdde79c360575c88737"
     },
     {
-      "Name": "PolyCAD-0.0.5-maintenance.exe",
-      "Bytes": 445742,
-      "Sha256": "cdd5a4f86a2892fb4b04234fffeef5db385236a80cf925e6b3f45446795ba4ff"
+      "Name": "PolyCAD-0.0.6-maintenance.exe",
+      "Bytes": 445757,
+      "Sha256": "ba2d6ed3d864fdc0ad50073faf0b94bd61f1f9980d8bdfe13a267f8c65b933f8"
     },
     {
-      "Name": "PolyCAD-0.0.5-win-x64.zip",
-      "Bytes": 81078584,
-      "Sha256": "5a91ece539478a9cb84d62876a09b2b66966d28241b858015687c213de8f52c0"
+      "Name": "PolyCAD-0.0.6-win-x64.zip",
+      "Bytes": 81089242,
+      "Sha256": "7d1f064dfaf57c2744843b2b6ed1d763e8ea2c4aa8669b342f83444b6ce44618"
     },
     {
-      "Name": "PolyCAD-0.0.5-manifest.json",
+      "Name": "PolyCAD-0.0.6-manifest.json",
       "Bytes": 74969,
-      "Sha256": "dac6d5cbce15baed0d32170cb29666faaf6c5c01da89e6e2f8d766f9de8035fe"
+      "Sha256": "0e44ba25b754247eb2e0486def1e835880ad506a1bb5fc5acc81d1660b597114"
     },
     {
-      "Name": "PolyCAD-0.0.3-to-0.0.5-delta.zip",
-      "Bytes": 2055930,
-      "Sha256": "dc14865c9f78e7ba071435b3549a7d4461a8f968ba4aa577b090ce8e786e9659"
+      "Name": "PolyCAD-0.0.5-to-0.0.6-delta.zip",
+      "Bytes": 2066595,
+      "Sha256": "5325d45af11329728be74bfdf48fb14550c92af8e9ca7363c7936d510bcaee2e"
     }
   ]
 }
