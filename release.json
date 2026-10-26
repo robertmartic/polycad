@@ -1,35 +1,35 @@
 {
-  "Version": "0.0.6",
-  "SourceRevision": "161058ea3ba645539cce0cb7aceb739cafb5ddb7",
+  "Version": "0.0.7",
+  "SourceRevision": "77a2b2025670e2f05a169e2da8c98b7257bfa6cd",
   "SourceRepository": "robertmartic/polycad-source",
   "DistributionRepository": "robertmartic/polycad",
   "Product": "PolyCAD",
-  "Scope": "Optional PolyHUB integration with document and recovery protection",
+  "Scope": "Vector CAD commands with accessible tools and responsive overflow",
   "Assets": [
     {
-      "Name": "PolyCAD-0.0.6-setup.exe",
-      "Bytes": 77540543,
-      "Sha256": "56b3d5b5877a7695ed0e94886815f2db05b7f00e4c965bdde79c360575c88737"
+      "Name": "PolyCAD-0.0.7-setup.exe",
+      "Bytes": 77544778,
+      "Sha256": "3e0f742ee011916f9f2c1d5bc279c521146201c7c2b0785621f0e1788dd3ce27"
     },
     {
-      "Name": "PolyCAD-0.0.6-maintenance.exe",
-      "Bytes": 445757,
-      "Sha256": "ba2d6ed3d864fdc0ad50073faf0b94bd61f1f9980d8bdfe13a267f8c65b933f8"
+      "Name": "PolyCAD-0.0.7-maintenance.exe",
+      "Bytes": 445758,
+      "Sha256": "c0ee01cce1ed477efb761a0b5994bb0a93c0a22f4e0377b487da16fa0022e81f"
     },
     {
-      "Name": "PolyCAD-0.0.6-win-x64.zip",
-      "Bytes": 81089242,
-      "Sha256": "7d1f064dfaf57c2744843b2b6ed1d763e8ea2c4aa8669b342f83444b6ce44618"
+      "Name": "PolyCAD-0.0.7-win-x64.zip",
+      "Bytes": 81097776,
+      "Sha256": "a9a77971ff7338a33d383174f31f965da353ac51e3bb8d07cacf76d7a22bc9ed"
     },
     {
-      "Name": "PolyCAD-0.0.6-manifest.json",
+      "Name": "PolyCAD-0.0.7-manifest.json",
       "Bytes": 74969,
-      "Sha256": "0e44ba25b754247eb2e0486def1e835880ad506a1bb5fc5acc81d1660b597114"
+      "Sha256": "a1b590f07a7be9d43cf23c95547eeb4b34ca3af02ba11ff16ad1a660da86ac9c"
     },
     {
-      "Name": "PolyCAD-0.0.5-to-0.0.6-delta.zip",
-      "Bytes": 2066595,
-      "Sha256": "5325d45af11329728be74bfdf48fb14550c92af8e9ca7363c7936d510bcaee2e"
+      "Name": "PolyCAD-0.0.6-to-0.0.7-delta.zip",
+      "Bytes": 2075127,
+      "Sha256": "a276890557bb32fb877d78037128091c505fc12fc2406beaa566002e0dee02f9"
     }
   ]
 }

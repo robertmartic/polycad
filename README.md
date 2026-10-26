@@ -1,9 +1,9 @@
-# PolyCAD 0.0.6
+# PolyCAD 0.0.7
 
 Early Windows x64 CAD editor. Free to use; no account, subscription, activation or telemetry.
 
 [Download the installer](https://github.com/robertmartic/polycad/releases/latest).
-Choose PolyCAD-0.0.6-setup.exe under Assets. Portable ZIP is also available.
+Choose PolyCAD-0.0.7-setup.exe under Assets. Portable ZIP is also available.
 
 Create, open and save native .polycad drawings. Draw Lines, Circles, straight Polylines and Rectangles with live preview,
 endpoint/midpoint/center/grid snapping and Ortho. Select objects (Ctrl-click to add/remove), Delete,
@@ -60,7 +60,9 @@ PolyCAD artwork was supplied by the project owner. This independent project is n
 other similarly named products.
 
 PolyHUB integration: PolyHUB 0.1.3+ lists PolyCAD and can launch its supported updater with
-PolyCAD 0.0.6+. Download controls and Save/Don't save/Cancel remain in PolyCAD. Recovery,
+PolyCAD 0.0.7+. Download controls and Save/Don't save/Cancel remain in PolyCAD. Recovery,
 Recent and preferences remain local. PolyHUB monitors the result and independently verifies
 installed files before confirming success. PolyCAD remains fully standalone.
 Existing 0.0.5 and earlier installations need a one-time update using PolyCAD About > Updates.
+
+Vector command icons include accessible names and shortcut tooltips. The active drawing tool is highlighted. At smaller window widths, More holds secondary commands while file and drawing tools remain visible.

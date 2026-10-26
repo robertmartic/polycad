@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.7
+
+- Vector icons for file, drawing, selection, move/copy, history and view commands.
+- Clear single active tool, keyboard focus, accessible command names and shortcut hints.
+- Responsive More menu keeps essential CAD tools visible in smaller windows, in light and dark themes.
+
 ## 0.0.6
 - Connect to PolyHUB 0.1.3+ for application discovery, launch and delegated update monitoring.
 - Keep update download controls, Save/Don't save/Cancel and recovery protection in PolyCAD.
