@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.8
+
+- Restore the original pointer position when turning off Ortho or snapping, without requiring another mouse movement.
+- Keep Ctrl+Z/Ctrl+Y within numeric text input; drawing Undo/Redo remains available when working on the canvas.
+- Preserve an unfinished drawing step when pressing the shortcut for the already active tool.
+- Verify the complete 2D drawing workflow, including exact coordinates, snapping, grouped Move/Copy, selection, history and native Save/Open.
+
 ## 0.0.7
 
 - Vector icons for file, drawing, selection, move/copy, history and view commands.

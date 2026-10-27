@@ -1,35 +1,35 @@
 {
-  "Version": "0.0.7",
-  "SourceRevision": "77a2b2025670e2f05a169e2da8c98b7257bfa6cd",
+  "Version": "0.0.8",
+  "SourceRevision": "4a1c6136e1fff73e6b5b15a645a21a3e1912eeb8",
   "SourceRepository": "robertmartic/polycad-source",
   "DistributionRepository": "robertmartic/polycad",
   "Product": "PolyCAD",
-  "Scope": "Vector CAD commands with accessible tools and responsive overflow",
+  "Scope": "Verified 2D workflows and precision/input fixes",
   "Assets": [
     {
-      "Name": "PolyCAD-0.0.7-setup.exe",
-      "Bytes": 77544778,
-      "Sha256": "3e0f742ee011916f9f2c1d5bc279c521146201c7c2b0785621f0e1788dd3ce27"
+      "Name": "PolyCAD-0.0.8-setup.exe",
+      "Bytes": 77545113,
+      "Sha256": "8d0f0244966117fac2debe7a6ef07ef5530025b73414c93129e4dd38cc0a1a16"
     },
     {
-      "Name": "PolyCAD-0.0.7-maintenance.exe",
+      "Name": "PolyCAD-0.0.8-maintenance.exe",
       "Bytes": 445758,
-      "Sha256": "c0ee01cce1ed477efb761a0b5994bb0a93c0a22f4e0377b487da16fa0022e81f"
+      "Sha256": "3bcdf9818c770f268ec637e1cfd375d52e64e3ba4fe6c67446ae749b17aa5e69"
     },
     {
-      "Name": "PolyCAD-0.0.7-win-x64.zip",
-      "Bytes": 81097776,
-      "Sha256": "a9a77971ff7338a33d383174f31f965da353ac51e3bb8d07cacf76d7a22bc9ed"
+      "Name": "PolyCAD-0.0.8-win-x64.zip",
+      "Bytes": 81100083,
+      "Sha256": "3b754d51523f516fe35cd485d15bcf1ce4e52931cd6e274ed56ad3578d7fc86b"
     },
     {
-      "Name": "PolyCAD-0.0.7-manifest.json",
+      "Name": "PolyCAD-0.0.8-manifest.json",
       "Bytes": 74969,
-      "Sha256": "a1b590f07a7be9d43cf23c95547eeb4b34ca3af02ba11ff16ad1a660da86ac9c"
+      "Sha256": "dad3ea72946394c634ac0f9bc713ed8f1ea18e963446ec1b282258086aeefc7e"
     },
     {
-      "Name": "PolyCAD-0.0.6-to-0.0.7-delta.zip",
-      "Bytes": 2075127,
-      "Sha256": "a276890557bb32fb877d78037128091c505fc12fc2406beaa566002e0dee02f9"
+      "Name": "PolyCAD-0.0.7-to-0.0.8-delta.zip",
+      "Bytes": 2077429,
+      "Sha256": "755e7e41911f70bd7be0478561449f154f85ae27998fca0189911e671774a7be"
     }
   ]
 }

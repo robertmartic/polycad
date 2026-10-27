@@ -1,6 +1,6 @@
-# Installing PolyCAD 0.0.7
+# Installing PolyCAD 0.0.8
 
-Choose PolyCAD-0.0.7-setup.exe from the official robertmartic/polycad GitHub release.
+Choose PolyCAD-0.0.8-setup.exe from the official robertmartic/polycad GitHub release.
 Create and save native drawings with Line/Circle/Polyline/Rectangle tools and Move/Copy, selection and Undo/Redo.
 
 Setup installs for the current Windows user without administrator privileges. Choose a dedicated empty
@@ -18,7 +18,7 @@ Uninstall through Windows installed apps or Uninstall.exe. Only owned applicatio
 are removed. Personal files, preferences and recovery storage are preserved.
 Preferences and update state live under LocalAppData/PolyCAD. Recovery snapshots are stored separately under LocalAppData/PolyCAD/Recovery. Startup or Recover offers abandoned snapshots as new unsaved drawings.
 
-For portable use extract the complete PolyCAD-0.0.7-win-x64.zip folder and run PolyCAD.exe.
+For portable use extract the complete PolyCAD-0.0.8-win-x64.zip folder and run PolyCAD.exe.
 Keep every runtime and native dependency beside the executable. Portable folders are not automatically
 adopted as managed installations. Use setup for in-app replacement.
 
