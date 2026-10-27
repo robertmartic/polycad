@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1
+
+- Fix unreadable tooltip text in the dark theme.
+- Keep tooltip text, background and border matched to the active theme, including when switching themes with a tooltip open.
+
 ## 0.1.0
 
 - Expanded basic 2D CAD release with Arc, Polar, Rotate, uniform Scale and Mirror.

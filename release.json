@@ -1,35 +1,35 @@
 {
-  "Version": "0.1.0",
-  "SourceRevision": "0ec13b85fd6eb95f5294d41726f0a40015c92cb0",
+  "Version": "0.1.1",
+  "SourceRevision": "658f44c30f22bc6f3d2211af5f8bfd204d7f4813",
   "SourceRepository": "robertmartic/polycad-source",
   "DistributionRepository": "robertmartic/polycad",
   "Product": "PolyCAD",
-  "Scope": "Expanded 2D CAD with Arc, Polar, Rotate, Scale and Mirror",
+  "Scope": "Readable tooltips in light and dark themes",
   "Assets": [
     {
-      "Name": "PolyCAD-0.1.0-setup.exe",
-      "Bytes": 77556951,
-      "Sha256": "1e171a8f54f67970641d3df3c35ebe6a0fa51ff4d5848d0986d1d85b3862c143"
+      "Name": "PolyCAD-0.1.1-setup.exe",
+      "Bytes": 77562796,
+      "Sha256": "2e9391cd5f1a7fc8a2f54065cce246250b6f7ec8c27b8da325bb629ae81ae038"
     },
     {
-      "Name": "PolyCAD-0.1.0-maintenance.exe",
+      "Name": "PolyCAD-0.1.1-maintenance.exe",
       "Bytes": 445763,
-      "Sha256": "e3f32c845f93228891da44ac82f1f717c58beb57d2f9ff29c1679f431cc85258"
+      "Sha256": "8b7db3e038291b3644cda7aa551ca45675f080253eeca5c347468419294fc1ba"
     },
     {
-      "Name": "PolyCAD-0.1.0-win-x64.zip",
-      "Bytes": 81111246,
-      "Sha256": "e59a358ce108c8e718838c05102f2ac6a93d9f19ca2ad1b2846174985b61738b"
+      "Name": "PolyCAD-0.1.1-win-x64.zip",
+      "Bytes": 81114006,
+      "Sha256": "ee3817426ecc2fe1ab430b994a9e3cefba113fcd0f590ca6bc3ab2a2117c38f1"
     },
     {
-      "Name": "PolyCAD-0.1.0-manifest.json",
+      "Name": "PolyCAD-0.1.1-manifest.json",
       "Bytes": 74969,
-      "Sha256": "4ab0285e381789c2d8b92db805df01fc477a8303ee8cdfc75b95b994a27cd244"
+      "Sha256": "691fcc3aa0f3138dfc6a8112293f67dfe0e89f8979f8034add44b50cff9b0ed7"
     },
     {
-      "Name": "PolyCAD-0.0.8-to-0.1.0-delta.zip",
-      "Bytes": 2088582,
-      "Sha256": "d9390eccbfb789b7177ce6e7f973467dbbe39808871017d698d1aae8383cc956"
+      "Name": "PolyCAD-0.1.0-to-0.1.1-delta.zip",
+      "Bytes": 2091350,
+      "Sha256": "3d711b9eaea218e11ab9744a472de17ab116f9c62497093a40d70107b5ea16b5"
     }
   ]
 }

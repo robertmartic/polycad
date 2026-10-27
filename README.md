@@ -1,9 +1,9 @@
-# PolyCAD 0.1.0
+# PolyCAD 0.1.1
 
 Standalone Windows x64 2D CAD editor. Free to use; no account, subscription, activation or telemetry.
 
 [Download the installer](https://github.com/robertmartic/polycad/releases/latest).
-Choose PolyCAD-0.1.0-setup.exe under Assets. Portable ZIP is also available.
+Choose PolyCAD-0.1.1-setup.exe under Assets. Portable ZIP is also available.
 
 Create, open and save native .polycad drawings. Draw Lines, Circles, straight Polylines and Rectangles with live preview,
 endpoint/midpoint/center/grid snapping and Ortho. Select objects (Ctrl-click to add/remove), Delete,
