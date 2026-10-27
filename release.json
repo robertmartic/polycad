@@ -1,35 +1,35 @@
 {
-  "Version": "0.0.8",
-  "SourceRevision": "4a1c6136e1fff73e6b5b15a645a21a3e1912eeb8",
+  "Version": "0.1.0",
+  "SourceRevision": "0ec13b85fd6eb95f5294d41726f0a40015c92cb0",
   "SourceRepository": "robertmartic/polycad-source",
   "DistributionRepository": "robertmartic/polycad",
   "Product": "PolyCAD",
-  "Scope": "Verified 2D workflows and precision/input fixes",
+  "Scope": "Expanded 2D CAD with Arc, Polar, Rotate, Scale and Mirror",
   "Assets": [
     {
-      "Name": "PolyCAD-0.0.8-setup.exe",
-      "Bytes": 77545113,
-      "Sha256": "8d0f0244966117fac2debe7a6ef07ef5530025b73414c93129e4dd38cc0a1a16"
+      "Name": "PolyCAD-0.1.0-setup.exe",
+      "Bytes": 77556951,
+      "Sha256": "1e171a8f54f67970641d3df3c35ebe6a0fa51ff4d5848d0986d1d85b3862c143"
     },
     {
-      "Name": "PolyCAD-0.0.8-maintenance.exe",
-      "Bytes": 445758,
-      "Sha256": "3bcdf9818c770f268ec637e1cfd375d52e64e3ba4fe6c67446ae749b17aa5e69"
+      "Name": "PolyCAD-0.1.0-maintenance.exe",
+      "Bytes": 445763,
+      "Sha256": "e3f32c845f93228891da44ac82f1f717c58beb57d2f9ff29c1679f431cc85258"
     },
     {
-      "Name": "PolyCAD-0.0.8-win-x64.zip",
-      "Bytes": 81100083,
-      "Sha256": "3b754d51523f516fe35cd485d15bcf1ce4e52931cd6e274ed56ad3578d7fc86b"
+      "Name": "PolyCAD-0.1.0-win-x64.zip",
+      "Bytes": 81111246,
+      "Sha256": "e59a358ce108c8e718838c05102f2ac6a93d9f19ca2ad1b2846174985b61738b"
     },
     {
-      "Name": "PolyCAD-0.0.8-manifest.json",
+      "Name": "PolyCAD-0.1.0-manifest.json",
       "Bytes": 74969,
-      "Sha256": "dad3ea72946394c634ac0f9bc713ed8f1ea18e963446ec1b282258086aeefc7e"
+      "Sha256": "4ab0285e381789c2d8b92db805df01fc477a8303ee8cdfc75b95b994a27cd244"
     },
     {
-      "Name": "PolyCAD-0.0.7-to-0.0.8-delta.zip",
-      "Bytes": 2077429,
-      "Sha256": "755e7e41911f70bd7be0478561449f154f85ae27998fca0189911e671774a7be"
+      "Name": "PolyCAD-0.0.8-to-0.1.0-delta.zip",
+      "Bytes": 2088582,
+      "Sha256": "d9390eccbfb789b7177ce6e7f973467dbbe39808871017d698d1aae8383cc956"
     }
   ]
 }

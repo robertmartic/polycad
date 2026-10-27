@@ -1,9 +1,9 @@
-# PolyCAD 0.0.8
+# PolyCAD 0.1.0
 
-Early Windows x64 CAD editor. Free to use; no account, subscription, activation or telemetry.
+Standalone Windows x64 2D CAD editor. Free to use; no account, subscription, activation or telemetry.
 
 [Download the installer](https://github.com/robertmartic/polycad/releases/latest).
-Choose PolyCAD-0.0.8-setup.exe under Assets. Portable ZIP is also available.
+Choose PolyCAD-0.1.0-setup.exe under Assets. Portable ZIP is also available.
 
 Create, open and save native .polycad drawings. Draw Lines, Circles, straight Polylines and Rectangles with live preview,
 endpoint/midpoint/center/grid snapping and Ortho. Select objects (Ctrl-click to add/remove), Delete,
@@ -23,7 +23,7 @@ Shift/Ctrl+drag adds objects; Shift/Ctrl+click toggles one object.
 Choose a drawing tool, then click points or enter numbers in the input field:
 absolute x,y, relative @dx,dy, or a positive length/radius. All numeric input and snap grid
 spacing use millimeters. Press Enter to accept, Escape to cancel the pending preview.
-L: Line. C: Circle. P: Polyline. R: Rectangle. M: Move. K: Copy. V: Select. F8: Ortho. Ctrl+A: select all.
+L: Line. C: Circle. A: Arc. P: Polyline. R: Rectangle. M/K: Move/Copy. T/S/I: Rotate/Scale/Mirror. V: Select. F8: Ortho. F10: Polar. Ctrl+A: select all.
 Ctrl+N/O/S: New/Open/Save. Ctrl+Shift+S: Save As. Ctrl+Z/Y: Undo/Redo.
 F: Zoom Extents. G: visual grid. Mouse wheel: zoom at pointer. Middle-drag: pan.
 Choose light/dark themes and optional GPU display in the application.
@@ -43,7 +43,7 @@ Recovery failures are shown in Document safety; manual saving remains available.
 Ortho, snap choices and snap-grid spacing are remembered, independently of document geometry.
 
 Dimensions and DXF are not implemented yet.
-The agreed 0.1.0 workflow remains in development.
+
 
 Windows 10 build 19041 or newer / Windows 11, x64. Self-contained; no separate .NET installation.
 About contains Overview, offline Changelog and Updates. Installed copies can download and verify
@@ -60,7 +60,7 @@ PolyCAD artwork was supplied by the project owner. This independent project is n
 other similarly named products.
 
 PolyHUB integration: PolyHUB 0.1.3+ lists PolyCAD and can launch its supported updater with
-PolyCAD 0.0.8+. Download controls and Save/Don't save/Cancel remain in PolyCAD. Recovery,
+PolyCAD 0.0.6+. Download controls and Save/Don't save/Cancel remain in PolyCAD. Recovery,
 Recent and preferences remain local. PolyHUB monitors the result and independently verifies
 installed files before confirming success. PolyCAD remains fully standalone.
 Existing 0.0.5 and earlier installations need a one-time update using PolyCAD About > Updates.
@@ -68,3 +68,25 @@ Existing 0.0.5 and earlier installations need a one-time update using PolyCAD Ab
 Vector command icons include accessible names and shortcut tooltips. The active drawing tool is highlighted. At smaller window widths, More holds secondary commands while file and drawing tools remain visible.
 
 Turning off Ortho or a snap restores the original pointer position. Ctrl+Z/Ctrl+Y edits numeric text while that field has focus, and drawing history while the canvas has focus. Repeating the active tool shortcut preserves its unfinished preview.
+
+Arc: choose its center, then a start point (or positive radius along the pointer direction).
+Choose an end direction for a counterclockwise arc, or enter a signed sweep in degrees.
+Positive sweeps run counterclockwise; negative sweeps run clockwise. Full circles use Circle.
+Arc endpoints, angular midpoint, center and cardinal quadrants support object snapping.
+
+Rotate: select objects, choose a pivot, then enter signed degrees. Alternatively pick a
+reference point and a destination direction. Scale: choose a base point and a positive
+uniform factor, or pick reference and destination distances from that base point.
+Mirror: choose two distinct axis points; the selected originals are reflected.
+Transforms preview before the final point, preserve entity/vertex IDs, and undo as one group.
+Escape discards a pending transform. Copy makes fresh IDs, including for Arcs.
+
+Polar (F10) constrains Line, Polyline, Move and Copy directions to the selected 15/30/45/90
+degree increment. Ortho (F8) takes precedence. Explicit x,y and @dx,dy override constraints;
+@distance<degrees enters an exact polar offset from the current anchor. Angles are degrees
+counterclockwise from +X; distances are millimeters. Precision preferences are remembered.
+
+Native format remains v1 with declared capabilities. This release reads existing drawings.
+Documents containing Arcs require an Arc-capable reader; older PolyCAD versions reject them
+without modifying the file. Files with only Line/Circle/Polyline remain readable in 0.0.8.
+Dimensions, text, multiple-layer editing, DXF exchange and 3D are future work.

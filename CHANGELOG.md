@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.1.0
+
+- Expanded basic 2D CAD release with Arc, Polar, Rotate, uniform Scale and Mirror.
+- Create native circular arcs from a center, start and end direction, or a signed sweep in degrees.
+- Rotate and scale a selection by exact angle/factor or reference points; mirror across a two-point axis.
+- Preview transforms, cancel with Escape and undo each complete group in one step while preserving object identities.
+- Use Polar direction steps, exact @distance<degrees input, Arc endpoint/midpoint/center snaps and circular quadrant snaps.
+- Preserve exact Arc angles during transforms at large local coordinates; identity transforms keep saved drawings clean.
+- Keep new precision preferences, accessible vector commands and usable narrow-window overflow.
+- Read existing native drawings; older versions safely reject files that require Arc support.
+- Verify document recovery, mixed-geometry workflows and the update from 0.0.8.
+
 ## 0.0.8
 
 - Restore the original pointer position when turning off Ortho or snapping, without requiring another mouse movement.
