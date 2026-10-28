@@ -1,35 +1,35 @@
 {
-  "Version": "0.1.5",
-  "SourceRevision": "04fb217dc0294d38bac97912244f083366f5a558",
+  "Version": "0.2.0",
+  "SourceRevision": "ff06f23f47196a32dce21b4b91b5dc5274ae861c",
   "SourceRepository": "robertmartic/polycad-source",
   "DistributionRepository": "robertmartic/polycad",
   "Product": "PolyCAD",
-  "Scope": "Command palette, selection and precision productivity",
+  "Scope": "Layer management and object properties",
   "Assets": [
     {
-      "Name": "PolyCAD-0.1.5-setup.exe",
-      "Bytes": 77593945,
-      "Sha256": "7d1f4ab8f0d39619d5f908c2da875270f9a55eacffead668fdce968afee1165f"
+      "Name": "PolyCAD-0.2.0-setup.exe",
+      "Bytes": 77593451,
+      "Sha256": "cc1957ea5bea298c0ceb1a6c115f8cbe9432555c0d961d54866b901bcffd5b40"
     },
     {
-      "Name": "PolyCAD-0.1.5-maintenance.exe",
+      "Name": "PolyCAD-0.2.0-maintenance.exe",
       "Bytes": 445764,
-      "Sha256": "3fe49c2134a29b14f2c452d71c4804d2e14de3ad6fa8efc3a8287c5886b4dcfa"
+      "Sha256": "fbcbb75de78f0404af2838a0bc5abf64fe50b5cdc492b03ff040342bd74e842f"
     },
     {
-      "Name": "PolyCAD-0.1.5-win-x64.zip",
-      "Bytes": 81130553,
-      "Sha256": "19fc8ddddca5fef43e99d3d8fb4c4b3972140b38f2eced02364bb513aef7ccca"
+      "Name": "PolyCAD-0.2.0-win-x64.zip",
+      "Bytes": 81146819,
+      "Sha256": "f896197b4c413625c2d6ca7549b96d591fe1c6d17aefa1dc8d7ced67fee009c1"
     },
     {
-      "Name": "PolyCAD-0.1.5-manifest.json",
-      "Bytes": 74969,
-      "Sha256": "468498d964449ab3bdfddd9faa8785598a6bd05591275b357333d2482a75d18c"
+      "Name": "PolyCAD-0.2.0-manifest.json",
+      "Bytes": 74970,
+      "Sha256": "3e1721a6f4be3df1ab33a3c7b7a5356cff89a860b9e77c9d61d9021c8f6d1d40"
     },
     {
-      "Name": "PolyCAD-0.1.1-to-0.1.5-delta.zip",
-      "Bytes": 2107898,
-      "Sha256": "4ca2ec26cc643ee1a5abc48a46a8294c37e2d94f610a7476f105b9dda548cd60"
+      "Name": "PolyCAD-0.1.5-to-0.2.0-delta.zip",
+      "Bytes": 2124158,
+      "Sha256": "123da0a51fd79f98544b09d65f2b5e45b8601a4dec22e067ffe340b797f3dcfe"
     }
   ]
 }

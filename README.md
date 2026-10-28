@@ -1,9 +1,9 @@
-# PolyCAD 0.1.5
+# PolyCAD 0.2.0
 
 Standalone Windows x64 2D CAD editor. Free to use; no account, subscription, activation or telemetry.
 
 [Download the installer](https://github.com/robertmartic/polycad/releases/latest).
-Choose PolyCAD-0.1.5-setup.exe under Assets. Portable ZIP is also available.
+Choose PolyCAD-0.2.0-setup.exe under Assets. Portable ZIP is also available.
 
 Create, open and save native .polycad drawings. Draw Lines, Circles, straight Polylines and Rectangles with live preview,
 endpoint/midpoint/center/grid snapping and Ortho. Select objects (Ctrl-click to add/remove), Delete,
@@ -89,7 +89,7 @@ counterclockwise from +X; distances are millimeters. Precision preferences are r
 Native format remains v1 with declared capabilities. This release reads existing drawings.
 Documents containing Arcs require an Arc-capable reader; older PolyCAD versions reject them
 without modifying the file. Files with only Line/Circle/Polyline remain readable in 0.0.8.
-Dimensions, text, multiple-layer editing, DXF exchange and 3D are future work.
+Dimensions, text, DXF exchange and 3D are future work.
 Search commands: use the magnifying-glass Commands button or Ctrl+Shift+P. Search by name,
 shortcut or description, choose with Up/Down, then Enter or Run. Unavailable commands stay
 labelled and cannot run. Escape closes the palette while keeping unfinished geometry and
@@ -111,3 +111,22 @@ Enable them in the Precision sidebar or search their names in Commands.
 The parameter field shows the expected value, units and a short example for the current step:
 coordinates/distances in millimeters, rotation/Arc sweep in degrees, and uniform Scale as a factor.
 The native format and current drawing tools remain compatible with existing releases.
+Layers and properties (0.2):
+- Manage layers from the sidebar or Commands. Add a unique name, rename a layer, change
+  visibility/locking, or delete an empty layer. Layer 0 keeps its name and identity.
+  To delete a nonempty layer, first move its objects elsewhere.
+- Choose a visible unlocked Active layer for new objects. Select objects, choose a target
+  active layer, then Move selection to layer. The group moves as one Undo operation.
+- Hidden layers do not render or participate in selection/snapping. Locked layers remain
+  visible but cannot be selected or edited. Layer metadata changes support Undo/Redo.
+- Select one object and use Object properties (Ctrl+1). Edit Line endpoints, Circle center/radius,
+  Arc center/radius/start/sweep, or Polyline vertex coordinates and closed/open state.
+  Use Load vertex before editing another vertex; staged edits apply together. Values use
+  millimeters and degrees. Apply validates the complete object; Cancel leaves it unchanged.
+- Layer and property edits preserve entity/vertex IDs. Successful metadata/property edits
+  cancel an unfinished tool preview. Cancelling a properties dialog keeps that preview.
+- The active-layer choice belongs to the current window and is not stored in the native file.
+  Reopened/recovered drawings use the first visible unlocked layer. If the active layer becomes
+  unavailable, another writable layer is used; if none exists, manage layers or Undo to re-enable drawing.
+Layer tables, visibility, locks and edited geometry save/recover in native v1 without migration.
+The 0.1.5 reader accepts these files, including Arcs. DXF remains a later release.

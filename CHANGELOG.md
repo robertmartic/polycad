@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.2.0
+
+- Add layer creation, renaming, visibility, locking and deletion of empty layers.
+- Protect layer 0 and move selected objects between writable layers as one Undo operation.
+- Choose an active drawing layer and exclude hidden/locked objects from editing and snapping.
+- Edit Line endpoints, Circle center/radius, Arc parameters and Polyline vertices/closed state.
+- Apply property changes atomically, preserve object/vertex identities and support Undo/Redo.
+- Save and recover layer tables and properties in the existing native format.
+- Add Layers and Object properties to Commands, with Ctrl+1 for object properties.
+
 ## 0.1.5
 
 - Add a searchable Commands palette with Ctrl+Shift+P, keyboard navigation and command availability.
