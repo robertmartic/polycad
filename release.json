@@ -1,35 +1,35 @@
 {
-  "Version": "0.1.1",
-  "SourceRevision": "658f44c30f22bc6f3d2211af5f8bfd204d7f4813",
+  "Version": "0.1.5",
+  "SourceRevision": "04fb217dc0294d38bac97912244f083366f5a558",
   "SourceRepository": "robertmartic/polycad-source",
   "DistributionRepository": "robertmartic/polycad",
   "Product": "PolyCAD",
-  "Scope": "Readable tooltips in light and dark themes",
+  "Scope": "Command palette, selection and precision productivity",
   "Assets": [
     {
-      "Name": "PolyCAD-0.1.1-setup.exe",
-      "Bytes": 77562796,
-      "Sha256": "2e9391cd5f1a7fc8a2f54065cce246250b6f7ec8c27b8da325bb629ae81ae038"
+      "Name": "PolyCAD-0.1.5-setup.exe",
+      "Bytes": 77593945,
+      "Sha256": "7d1f4ab8f0d39619d5f908c2da875270f9a55eacffead668fdce968afee1165f"
     },
     {
-      "Name": "PolyCAD-0.1.1-maintenance.exe",
-      "Bytes": 445763,
-      "Sha256": "8b7db3e038291b3644cda7aa551ca45675f080253eeca5c347468419294fc1ba"
+      "Name": "PolyCAD-0.1.5-maintenance.exe",
+      "Bytes": 445764,
+      "Sha256": "3fe49c2134a29b14f2c452d71c4804d2e14de3ad6fa8efc3a8287c5886b4dcfa"
     },
     {
-      "Name": "PolyCAD-0.1.1-win-x64.zip",
-      "Bytes": 81114006,
-      "Sha256": "ee3817426ecc2fe1ab430b994a9e3cefba113fcd0f590ca6bc3ab2a2117c38f1"
+      "Name": "PolyCAD-0.1.5-win-x64.zip",
+      "Bytes": 81130553,
+      "Sha256": "19fc8ddddca5fef43e99d3d8fb4c4b3972140b38f2eced02364bb513aef7ccca"
     },
     {
-      "Name": "PolyCAD-0.1.1-manifest.json",
+      "Name": "PolyCAD-0.1.5-manifest.json",
       "Bytes": 74969,
-      "Sha256": "691fcc3aa0f3138dfc6a8112293f67dfe0e89f8979f8034add44b50cff9b0ed7"
+      "Sha256": "468498d964449ab3bdfddd9faa8785598a6bd05591275b357333d2482a75d18c"
     },
     {
-      "Name": "PolyCAD-0.1.0-to-0.1.1-delta.zip",
-      "Bytes": 2091350,
-      "Sha256": "3d711b9eaea218e11ab9744a472de17ab116f9c62497093a40d70107b5ea16b5"
+      "Name": "PolyCAD-0.1.1-to-0.1.5-delta.zip",
+      "Bytes": 2107898,
+      "Sha256": "4ca2ec26cc643ee1a5abc48a46a8294c37e2d94f610a7476f105b9dda548cd60"
     }
   ]
 }

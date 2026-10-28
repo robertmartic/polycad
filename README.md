@@ -1,9 +1,9 @@
-# PolyCAD 0.1.1
+# PolyCAD 0.1.5
 
 Standalone Windows x64 2D CAD editor. Free to use; no account, subscription, activation or telemetry.
 
 [Download the installer](https://github.com/robertmartic/polycad/releases/latest).
-Choose PolyCAD-0.1.1-setup.exe under Assets. Portable ZIP is also available.
+Choose PolyCAD-0.1.5-setup.exe under Assets. Portable ZIP is also available.
 
 Create, open and save native .polycad drawings. Draw Lines, Circles, straight Polylines and Rectangles with live preview,
 endpoint/midpoint/center/grid snapping and Ortho. Select objects (Ctrl-click to add/remove), Delete,
@@ -90,3 +90,24 @@ Native format remains v1 with declared capabilities. This release reads existing
 Documents containing Arcs require an Arc-capable reader; older PolyCAD versions reject them
 without modifying the file. Files with only Line/Circle/Polyline remain readable in 0.0.8.
 Dimensions, text, multiple-layer editing, DXF exchange and 3D are future work.
+Search commands: use the magnifying-glass Commands button or Ctrl+Shift+P. Search by name,
+shortcut or description, choose with Up/Down, then Enter or Run. Unavailable commands stay
+labelled and cannot run. Escape closes the palette while keeping unfinished geometry and
+typed parameter text. New/Open/Save and other document commands keep their existing safeguards.
+
+Selection: Alt+click cycles overlapping objects; Shift/Ctrl+Alt+click toggles the next hit.
+Use "Select all Line/Circle/Arc/Polyline objects" in Commands to select by type, or Clear selection.
+Invisible and locked geometry remains excluded. Selection changes do not modify the drawing.
+
+Additional snaps are optional, initially off, and remembered in preferences:
+- Intersection: isolated intersections of finite line/polyline segments, circles and arcs.
+  Coincident overlaps and numerically uncertain cases do not supply a unique snap. Very dense
+  local searches pause with an on-screen hint; zoom in or disable Intersection.
+- Perpendicular: a foot from the current anchor to a finite segment or circular curve.
+- Nearest: the nearest curve point, used as a fallback after feature snaps.
+All modes use a screen-space aperture and respect Ortho/Polar direction constraints.
+Enable them in the Precision sidebar or search their names in Commands.
+
+The parameter field shows the expected value, units and a short example for the current step:
+coordinates/distances in millimeters, rotation/Arc sweep in degrees, and uniform Scale as a factor.
+The native format and current drawing tools remain compatible with existing releases.

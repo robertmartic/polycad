@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.1.5
+
+- Add a searchable Commands palette with Ctrl+Shift+P, keyboard navigation and command availability.
+- Keep unfinished drawing steps and typed parameters when cancelling command search.
+- Cycle overlapping objects with Alt+click and select visible unlocked objects by geometry type.
+- Add optional Intersection, Perpendicular and Nearest snaps, respecting current direction constraints.
+- Show an expected parameter, units and example for every drawing/transform step.
+- Remember new snap preferences and retain the existing native format.
+- Deliver the productivity package previously planned for 0.2 as version 0.1.5.
+
 ## 0.1.1
 
 - Fix unreadable tooltip text in the dark theme.
