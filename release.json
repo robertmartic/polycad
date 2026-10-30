@@ -1,35 +1,32 @@
 {
-  "Version": "0.2.0",
-  "SourceRevision": "ff06f23f47196a32dce21b4b91b5dc5274ae861c",
-  "SourceRepository": "robertmartic/polycad-source",
-  "DistributionRepository": "robertmartic/polycad",
-  "Product": "PolyCAD",
-  "Scope": "Layer management and object properties",
+  "Format": 1,
+  "Version": "0.2.1",
+  "BuildProvenance": "7af0e1881d1a41769d70b711c75b7120",
   "Assets": [
     {
-      "Name": "PolyCAD-0.2.0-setup.exe",
-      "Bytes": 77593451,
-      "Sha256": "cc1957ea5bea298c0ceb1a6c115f8cbe9432555c0d961d54866b901bcffd5b40"
+      "Name": "PolyCAD-0.2.1-setup.exe",
+      "Bytes": 77603171,
+      "Sha256": "7dc9c3e9df576beaaf47ac6f7cca58fb340c1696943016c698fcbcbb6163df29"
     },
     {
-      "Name": "PolyCAD-0.2.0-maintenance.exe",
-      "Bytes": 445764,
-      "Sha256": "fbcbb75de78f0404af2838a0bc5abf64fe50b5cdc492b03ff040342bd74e842f"
+      "Name": "PolyCAD-0.2.1-maintenance.exe",
+      "Bytes": 445774,
+      "Sha256": "4590cf5a83d824bdc718a86d3850fa121e389c6363b8e7dc73a02233d312ade7"
     },
     {
-      "Name": "PolyCAD-0.2.0-win-x64.zip",
-      "Bytes": 81146819,
-      "Sha256": "f896197b4c413625c2d6ca7549b96d591fe1c6d17aefa1dc8d7ced67fee009c1"
+      "Name": "PolyCAD-0.2.1-win-x64.zip",
+      "Bytes": 81154790,
+      "Sha256": "2b3d7f03d4db889c1cea32558a02552f02f963280e1aa5608f4a3634218b5a56"
     },
     {
-      "Name": "PolyCAD-0.2.0-manifest.json",
+      "Name": "PolyCAD-0.2.1-manifest.json",
       "Bytes": 74970,
-      "Sha256": "3e1721a6f4be3df1ab33a3c7b7a5356cff89a860b9e77c9d61d9021c8f6d1d40"
+      "Sha256": "afda77e65d2c9feccf34bc1ed06f4a4e4477156af08ed1f3b1bd76be6f79610e"
     },
     {
-      "Name": "PolyCAD-0.1.5-to-0.2.0-delta.zip",
-      "Bytes": 2124158,
-      "Sha256": "123da0a51fd79f98544b09d65f2b5e45b8601a4dec22e067ffe340b797f3dcfe"
+      "Name": "PolyCAD-0.2.0-to-0.2.1-delta.zip",
+      "Bytes": 2131444,
+      "Sha256": "83fb6652ee801fbba60ecd6851740d2ac473c7e68f301a0063ded2e01d28ab2c"
     }
   ]
 }

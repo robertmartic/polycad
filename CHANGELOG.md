@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.1
+
+- Updates now use a digitally signed PolyStudio channel and verified Cloudflare downloads.
+- Existing installations can move to the new channel through this bridge release.
+- CAD tools, native drawings, preferences and installer choices are preserved.
+
 ## 0.2.0
 
 - Add layer creation, renaming, visibility, locking and deletion of empty layers.

@@ -1,9 +1,9 @@
-# PolyCAD 0.2.0
+# PolyCAD 0.2.1
 
 Standalone Windows x64 2D CAD editor. Free to use; no account, subscription, activation or telemetry.
 
-[Download the installer](https://github.com/robertmartic/polycad/releases/latest).
-Choose PolyCAD-0.2.0-setup.exe under Assets. Portable ZIP is also available.
+[Download the installer](https://downloads.polystudio.tools/polycad/0.2.1/PolyCAD-0.2.1-setup.exe).
+Choose PolyCAD-0.2.1-setup.exe under Assets. Portable ZIP is also available.
 
 Create, open and save native .polycad drawings. Draw Lines, Circles, straight Polylines and Rectangles with live preview,
 endpoint/midpoint/center/grid snapping and Ortho. Select objects (Ctrl-click to add/remove), Delete,
@@ -50,9 +50,9 @@ About contains Overview, offline Changelog and Updates. Installed copies can dow
 updates, with cancellation, retry, full/delta selection and rollback. Startup checks can be disabled.
 Portable copies can check availability; use the conventional installer to enable replacement.
 
-Processing stays on your PC. Update checks contact the official public GitHub channel; drawings
-are never uploaded. Downloads are verified with SHA-256 using official GitHub release digests.
-Packages are not code-signed; these hashes are not an independent publisher signature.
+Processing stays on your PC; drawings are never uploaded. Update checks contact the signed PolyStudio channel.
+RSA-PSS/SHA-256 signatures authenticate metadata; Cloudflare packages are verified by exact address, size and SHA-256.
+Windows installer publisher code signing is not yet provided. GitHub v0.2.1 remains a bridge for older clients.
 
 See docs/INSTALLATION.md, docs/UPDATES.md, LICENSE, THIRD-PARTY-NOTICES.txt and licenses/.
 Source and development documentation are private. Public tags identify distribution metadata commits.

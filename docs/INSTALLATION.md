@@ -1,6 +1,6 @@
-# Installing PolyCAD 0.2.0
+# Installing PolyCAD 0.2.1
 
-Choose PolyCAD-0.2.0-setup.exe from the official robertmartic/polycad GitHub release.
+Choose PolyCAD-0.2.1-setup.exe from the official [PolyStudio download](https://downloads.polystudio.tools/polycad/0.2.1/PolyCAD-0.2.1-setup.exe). GitHub v0.2.1 also serves existing-client upgrades.
 Create and save native drawings with Line/Circle/Arc/Polyline/Rectangle tools, Polar, Move/Copy/Rotate/Scale/Mirror, selection and Undo/Redo.
 
 Setup installs for the current Windows user without administrator privileges. Choose a dedicated empty
@@ -18,7 +18,7 @@ Uninstall through Windows installed apps or Uninstall.exe. Only owned applicatio
 are removed. Personal files, preferences and recovery storage are preserved.
 Preferences and update state live under LocalAppData/PolyCAD. Recovery snapshots are stored separately under LocalAppData/PolyCAD/Recovery. Startup or Recover offers abandoned snapshots as new unsaved drawings.
 
-For portable use extract the complete PolyCAD-0.2.0-win-x64.zip folder and run PolyCAD.exe.
+For portable use extract the complete PolyCAD-0.2.1-win-x64.zip folder and run PolyCAD.exe.
 Keep every runtime and native dependency beside the executable. Portable folders are not automatically
 adopted as managed installations. Use setup for in-app replacement.
 
