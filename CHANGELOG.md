@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.0
+
+- Import and export AutoCAD 2013 ASCII DXF (AC1027): model-space XY Lines, Circles, Arcs and straight open/closed polylines.
+- Transfer layer names, visibility and locking; convert inches, feet, millimeters, centimeters and meters to the native millimeter model.
+- Choose units explicitly when they are missing or unsupported, and review converted/skipped objects before importing.
+- Imported geometry opens as a new unsaved drawing; export keeps the native document, history and unfinished preview.
+- Safely write and verify DXF exports, with clear notices for unsupported objects, visual styles and Arc direction normalization.
+- Updates use the existing signed PolyStudio Cloudflare channel, with a file-level delta from 0.2.1.
+
 ## 0.2.1
 
 - Updates now use a digitally signed PolyStudio channel and verified Cloudflare downloads.

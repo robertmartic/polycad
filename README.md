@@ -1,9 +1,9 @@
-# PolyCAD 0.2.1
+# PolyCAD 0.3.0
 
 Standalone Windows x64 2D CAD editor. Free to use; no account, subscription, activation or telemetry.
 
-[Download the installer](https://downloads.polystudio.tools/polycad/0.2.1/PolyCAD-0.2.1-setup.exe).
-Choose PolyCAD-0.2.1-setup.exe under Assets. Portable ZIP is also available.
+[Download the installer](https://downloads.polystudio.tools/polycad/0.3.0/PolyCAD-0.3.0-setup.exe).
+Download PolyCAD-0.3.0-setup.exe. Portable ZIP is also available.
 
 Create, open and save native .polycad drawings. Draw Lines, Circles, straight Polylines and Rectangles with live preview,
 endpoint/midpoint/center/grid snapping and Ortho. Select objects (Ctrl-click to add/remove), Delete,
@@ -42,7 +42,7 @@ Successful Save or explicit discard/normal close clears that document's snapshot
 Recovery failures are shown in Document safety; manual saving remains available.
 Ortho, snap choices and snap-grid spacing are remembered, independently of document geometry.
 
-Dimensions and DXF are not implemented yet.
+Dimensions are not implemented yet. Basic DXF exchange is described below.
 
 
 Windows 10 build 19041 or newer / Windows 11, x64. Self-contained; no separate .NET installation.
@@ -130,3 +130,34 @@ Layers and properties (0.2):
   unavailable, another writable layer is used; if none exists, manage layers or Undo to re-enable drawing.
 Layer tables, visibility, locks and edited geometry save/recover in native v1 without migration.
 The 0.1.5 reader accepts these files, including Arcs. DXF remains a later release.
+DXF exchange — 0.3.0
+-------------------
+Choose Import DXF / Export DXF in the DXF toolbar group (More on smaller windows),
+or search for these commands with Ctrl+Shift+P.
+Supported exchange profile: AutoCAD 2013 ASCII DXF, version AC1027, UTF-8 text.
+Other DXF versions, binary DXF and DWG are not supported in this release.
+
+Import reads model-space XY LINE, CIRCLE, ARC, LWPOLYLINE and classic 2D POLYLINE.
+Polylines contain straight segments; closed polylines need at least three usable vertices.
+Layer names, visibility and locks are transferred. Hidden/locked layers stay hidden/locked;
+use Manage layers to reveal/unlock them. Units mm/cm/m/in/ft are converted to millimeters.
+If source units are missing, unitless or unsupported, choose what one drawing unit means.
+Review the complete report, then choose Import as new drawing. Existing unsaved work
+still receives Save / Don't save / Cancel. Save the import as a new .polycad document.
+The source DXF is never overwritten by import.
+
+Text, dimensions, INSERT/block references, hatches, splines, 3D/non-XY/thick geometry,
+bulged polylines, hidden entities and paper-space objects are skipped and counted.
+Block definitions are not expanded and external references are never opened.
+Visual styles, colors, lineweights and polyline widths are not retained; the report
+identifies omitted appearance data. A partial import is explicitly reported.
+Malformed, degenerate or out-of-range supported geometry fails without replacing
+the current drawing. The exchange limit is 32 MiB and one million non-comment groups.
+
+Export includes every committed object, including hidden/locked layers, in millimeters.
+It does not include unfinished tool previews and does not mark the native document saved.
+DXF standard Arcs are counterclockwise: clockwise native Arcs swap endpoints while
+preserving their curve, and full-turn Arcs become Circles. These changes are reported.
+Layer names must be valid and unique in DXF; rename incompatible names before export.
+The complete export is checked by reading it back, then written through a verified
+temporary file. Existing destinations are protected against conflicting changes.
