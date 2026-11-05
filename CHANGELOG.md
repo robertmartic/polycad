@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.1
+
+- Added vector toolbar icons for Trim, Extend, Offset, Break and Join, with descriptive tooltips.
+
 ## 0.4.0
 
 - Trim and extend lines and open arcs to a selected boundary.

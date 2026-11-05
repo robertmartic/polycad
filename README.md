@@ -1,9 +1,9 @@
-# PolyCAD 0.4.0
+# PolyCAD 0.4.1
 
 Standalone Windows x64 2D CAD editor. Free to use; no account, subscription, activation or telemetry.
 
-[Download the installer](https://downloads.polystudio.tools/polycad/0.4.0/PolyCAD-0.4.0-setup.exe).
-Download PolyCAD-0.4.0-setup.exe. Portable ZIP is also available.
+[Download the installer](https://downloads.polystudio.tools/polycad/0.4.1/PolyCAD-0.4.1-setup.exe).
+Download PolyCAD-0.4.1-setup.exe. Portable ZIP is also available.
 
 Create, open and save native .polycad drawings. Draw Lines, Circles, straight Polylines and Rectangles with live preview,
 endpoint/midpoint/center/grid snapping and Ortho. Select objects (Ctrl-click to add/remove), Delete,
@@ -132,7 +132,7 @@ Layer tables, visibility, locks and edited geometry save/recover in native v1 wi
 The 0.1.5 reader accepts these files, including Arcs. DXF remains a later release.
 Geometry editing — 0.4.0
 ------------------------
-Find these tools in Modify (More on smaller windows) or search with Ctrl+Shift+P.
+Find these tools by their icons in Modify (More on smaller windows) or search with Ctrl+Shift+P.
 
 - Trim and Extend: pick a visible boundary, then pick the portion to remove or the end to extend on a line or open arc. Lines, circles, arcs and straight polylines can serve as boundaries.
 - Offset: pick a line, circle or arc. Click on the desired side at the target distance, or point to that side and type an exact distance in millimeters.
