@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.0
+
+- Trim and extend lines and open arcs to a selected boundary.
+- Offset a line, circle or arc by a picked or typed distance.
+- Break objects at one point or remove a section between two points. Join connected lines and open polylines on the same layer.
+- Review each modification before applying it, then undo or redo it as one edit.
+- Choose DXF in Save As to export a copy while retaining the native drawing and its unsaved changes.
+
 ## 0.3.0
 
 - Import and export AutoCAD 2013 ASCII DXF (AC1027): model-space XY Lines, Circles, Arcs and straight open/closed polylines.

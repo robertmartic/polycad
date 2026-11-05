@@ -1,9 +1,9 @@
-# PolyCAD 0.3.0
+# PolyCAD 0.4.0
 
 Standalone Windows x64 2D CAD editor. Free to use; no account, subscription, activation or telemetry.
 
-[Download the installer](https://downloads.polystudio.tools/polycad/0.3.0/PolyCAD-0.3.0-setup.exe).
-Download PolyCAD-0.3.0-setup.exe. Portable ZIP is also available.
+[Download the installer](https://downloads.polystudio.tools/polycad/0.4.0/PolyCAD-0.4.0-setup.exe).
+Download PolyCAD-0.4.0-setup.exe. Portable ZIP is also available.
 
 Create, open and save native .polycad drawings. Draw Lines, Circles, straight Polylines and Rectangles with live preview,
 endpoint/midpoint/center/grid snapping and Ortho. Select objects (Ctrl-click to add/remove), Delete,
@@ -130,10 +130,21 @@ Layers and properties (0.2):
   unavailable, another writable layer is used; if none exists, manage layers or Undo to re-enable drawing.
 Layer tables, visibility, locks and edited geometry save/recover in native v1 without migration.
 The 0.1.5 reader accepts these files, including Arcs. DXF remains a later release.
+Geometry editing — 0.4.0
+------------------------
+Find these tools in Modify (More on smaller windows) or search with Ctrl+Shift+P.
+
+- Trim and Extend: pick a visible boundary, then pick the portion to remove or the end to extend on a line or open arc. Lines, circles, arcs and straight polylines can serve as boundaries.
+- Offset: pick a line, circle or arc. Click on the desired side at the target distance, or point to that side and type an exact distance in millimeters.
+- Break: pick a line, circle, open arc or polyline at the first cut. Pick a second point or enter its coordinates to remove a gap. Press Enter at the first point to preview a single cut. On a closed contour, the gap follows the contour direction (counterclockwise on circles).
+- Join: select connected lines and open polylines on the same layer, then choose Join. The selection must form one unbranched chain or loop.
+
+Review the result and choose Apply (Enter) to commit one Undo step. Escape discards the preview.
+
 DXF exchange — 0.3.0
 -------------------
 Choose Import DXF / Export DXF in the DXF toolbar group (More on smaller windows),
-or search for these commands with Ctrl+Shift+P.
+or search for these commands with Ctrl+Shift+P. You can also choose the DXF export format in Save As.
 Supported exchange profile: AutoCAD 2013 ASCII DXF, version AC1027, UTF-8 text.
 Other DXF versions, binary DXF and DWG are not supported in this release.
 
