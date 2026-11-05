@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.0
+
+- Add driving dimensions for line length, circle radius or diameter, and arc radius. Edit the value to resize the linked object.
+- Add reference dimensions that follow the measured object and identify a missing reference.
+- Adjust dimension text height, arrow size and precision, and add multiline text notes with configurable height, angle and alignment.
+- Save annotations in native drawings. DXF export reports any annotations it omits.
+
 ## 0.4.1
 
 - Added vector toolbar icons for Trim, Extend, Offset, Break and Join, with descriptive tooltips.
