@@ -1,9 +1,9 @@
-# PolyCAD 0.5.0
+# PolyCAD 0.6.0
 
 Standalone Windows x64 2D CAD editor. Free to use; no account, subscription, activation or telemetry.
 
-[Download the installer](https://downloads.polystudio.tools/polycad/0.5.0/PolyCAD-0.5.0-setup.exe).
-Download PolyCAD-0.5.0-setup.exe. Portable ZIP is also available.
+[Download the installer](https://downloads.polystudio.tools/polycad/0.6.0/PolyCAD-0.6.0-setup.exe).
+Download PolyCAD-0.6.0-setup.exe. Portable ZIP is also available.
 
 Create, open and save native .polycad drawings. Draw Lines, Circles, straight Polylines and Rectangles with live preview,
 endpoint/midpoint/center/grid snapping and Ortho. Select objects (Ctrl-click to add/remove), Delete,
@@ -130,6 +130,26 @@ Layers and properties (0.2):
   unavailable, another writable layer is used; if none exists, manage layers or Undo to re-enable drawing.
 Layer tables, visibility, locks and edited geometry save/recover in native v1 without migration.
 The 0.1.5 reader accepts these files, including Arcs. DXF remains a later release.
+Sketches, reusable geometry and sheets — 0.6.0
+---------------------------------------------
+Open Sketch & Sheets on the toolbar or in More. Commands are also available via Ctrl+Shift+P.
+
+- Select two lines and choose Sketch constraints. Add coincident endpoints, parallel or perpendicular lines.
+  Select a rectangle or straight polyline to convert it to joined sketch lines. Existing right angles
+  become perpendicular constraints. The solver supports up to 24 lines per connected component.
+  Edit a driving line dimension to update the component. Conflicts leave the sketch unchanged.
+- Define a named block from selected line, arc, circle or straight polyline geometry. Insert it at
+  an explicit model point. Redefining the block from another selection updates every instance.
+- Group selected objects for shared selection, movement and copying. Ungroup to edit members individually.
+- Hatch a closed polyline, circular contour or a closed chain of straight objects. Set line angle and spacing.
+  A hatch stores a contour snapshot. Circular contours are approximated with straight edges.
+- Save a named plot sheet with paper size, view center and scale. A scale of 1 means 1:1.
+  Export vector PDF or send the sheet to a Windows printer. Check the printer's paper setup and
+  print a PDF at Actual size to retain the chosen scale.
+
+DXF exchanges supported text and dimensions as measurements. Constraints, blocks, hatch patterns
+and native sheets stay in the .polycad workflow. Files using 0.6.0 capabilities require 0.6.0 or later.
+
 Dimensions and notes — 0.5.0
 ---------------------------
 Find Dimension and Text in Annotate (More on smaller windows) or search with Ctrl+Shift+P.
@@ -139,7 +159,7 @@ Changing the length of a line holds its start point and direction. A radius or d
 the center, and an arc retains its angles. One driving dimension can control each source.
 Set text height, arrow size and decimals per dimension. Deleting a source leaves a Missing reference label.
 Text notes support multiple lines, model-space height, rotation and left, center or right alignment.
-Save annotations to .polycad. Files with annotations require 0.5.0 or later. DXF reports omitted annotations.
+Save annotations to .polycad. Files with annotations require 0.5.0 or later.
 
 Geometry editing — 0.4.0
 ------------------------
@@ -168,7 +188,7 @@ Review the complete report, then choose Import as new drawing. Existing unsaved 
 still receives Save / Don't save / Cancel. Save the import as a new .polycad document.
 The source DXF is never overwritten by import.
 
-Text, dimensions, INSERT/block references, hatches, splines, 3D/non-XY/thick geometry,
+Unsupported dimension or text variants, INSERT/block references, hatches, splines, 3D/non-XY/thick geometry,
 bulged polylines, hidden entities and paper-space objects are skipped and counted.
 Block definitions are not expanded and external references are never opened.
 Visual styles, colors, lineweights and polyline widths are not retained; the report

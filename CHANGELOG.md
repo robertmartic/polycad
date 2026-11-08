@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.6.0
+
+- Add coincident, parallel and perpendicular sketch constraints. Driving length edits update connected lines and report conflicts.
+- Convert rectangles or straight polylines into constrained sketch lines. Inspect remaining degrees of freedom.
+- Define and insert reusable blocks, organize objects in groups, and hatch closed contours.
+- Exchange supported DXF dimensions and plain text.
+- Save paper sheets and plot at a fixed scale using vector PDF or Windows printing.
+
 ## 0.5.0
 
 - Add driving dimensions for line length, circle radius or diameter, and arc radius. Edit the value to resize the linked object.

@@ -10,7 +10,7 @@ Signed information binds PolyCAD, the stable channel, the canonical version and 
 Packages come only from https://downloads.polystudio.tools/polycad/ at immutable versioned paths.
 Unexpected redirects, damaged downloads, invalid signatures, mismatched identities and downgrades are rejected.
 
-0.5.0 includes a changed-file delta from 0.4.1. Older or modified installations use the full package.
+0.6.0 includes a changed-file delta from 0.5.0. Older or modified installations use the full package.
 GitHub v0.2.1 is a transition release so existing 0.2.0 clients can obtain the new updater.
 Setup, maintenance installer, portable ZIP, update manifest and delta contain the same verified application files.
 A failed update reports failure and preserves the backup; a registration failure restores the previous installation.
