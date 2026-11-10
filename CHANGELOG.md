@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.7.1
+
+- Create a parametric solid from a closed straight-edged contour or a circle.
+- Edit Extrude height or modify the driving dimensions of the source sketch to rebuild the same body.
+- Check the profile and locate open endpoints, duplicate edges, overlaps and crossings in the sketch.
+- Save the sketch links and Extrude parameters with the model.
+
 ## 0.7.0
 
 - View the model in 3D with orbit, pan, zoom, fit and standard orthographic views.

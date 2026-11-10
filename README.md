@@ -1,9 +1,9 @@
-# PolyCAD 0.7.0
+# PolyCAD 0.7.1
 
 Standalone Windows x64 2D CAD editor. Free to use; no account, subscription, activation or telemetry.
 
-[Download the installer](https://downloads.polystudio.tools/polycad/0.7.0/PolyCAD-0.7.0-setup.exe).
-Download PolyCAD-0.7.0-setup.exe. Portable ZIP is also available.
+[Download the installer](https://downloads.polystudio.tools/polycad/0.7.1/PolyCAD-0.7.1-setup.exe).
+Download PolyCAD-0.7.1-setup.exe. Portable ZIP is also available.
 
 Create, open and save native .polycad drawings. Draw Lines, Circles, straight Polylines and Rectangles with live preview,
 endpoint/midpoint/center/grid snapping and Ortho. Select objects (Ctrl-click to add/remove), Delete,
@@ -130,6 +130,19 @@ Layers and properties (0.2):
   unavailable, another writable layer is used; if none exists, manage layers or Undo to re-enable drawing.
 Layer tables, visibility, locks and edited geometry save/recover in native v1 without migration.
 The 0.1.5 reader accepts these files, including Arcs. DXF remains a later release.
+Parametric Extrude — 0.7.1
+-------------------------
+Open a sketch plane, select one circle or one closed contour of up to 512 straight edges,
+then choose Extrude in 3D Model (or search with Ctrl+Shift+P). Specify the height in mm.
+Concave straight-edged contours are supported. Each extrusion uses one contour.
+
+Check Extrude Profile locates gaps, duplicate edges, overlaps or crossings and highlights them
+in the sketch. Select the solid and open Object properties to change its height or open its source sketch.
+Changes to the source, including driving dimensions, rebuild the same body. Edits that would break
+an existing extrusion are rejected. Delete the dependent body first if you need to remove its sketch edges.
+
+Files containing Extrude operations require 0.7.1 or later.
+
 3D model and work planes — 0.7.0
 --------------------------------
 Find 3D Model on the toolbar or under More. The same commands appear in Ctrl+Shift+P.
