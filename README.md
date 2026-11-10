@@ -1,9 +1,9 @@
-# PolyCAD 0.6.0
+# PolyCAD 0.7.0
 
 Standalone Windows x64 2D CAD editor. Free to use; no account, subscription, activation or telemetry.
 
-[Download the installer](https://downloads.polystudio.tools/polycad/0.6.0/PolyCAD-0.6.0-setup.exe).
-Download PolyCAD-0.6.0-setup.exe. Portable ZIP is also available.
+[Download the installer](https://downloads.polystudio.tools/polycad/0.7.0/PolyCAD-0.7.0-setup.exe).
+Download PolyCAD-0.7.0-setup.exe. Portable ZIP is also available.
 
 Create, open and save native .polycad drawings. Draw Lines, Circles, straight Polylines and Rectangles with live preview,
 endpoint/midpoint/center/grid snapping and Ortho. Select objects (Ctrl-click to add/remove), Delete,
@@ -130,6 +130,24 @@ Layers and properties (0.2):
   unavailable, another writable layer is used; if none exists, manage layers or Undo to re-enable drawing.
 Layer tables, visibility, locks and edited geometry save/recover in native v1 without migration.
 The 0.1.5 reader accepts these files, including Arcs. DXF remains a later release.
+3D model and work planes — 0.7.0
+--------------------------------
+Find 3D Model on the toolbar or under More. The same commands appear in Ctrl+Shift+P.
+
+- Show 3D Model opens the orthographic viewport. Drag with the middle mouse button to orbit,
+  hold Shift while dragging to pan, scroll to zoom and press F to fit. Choose a Standard 3D View
+  for Isometric, Top, Bottom, Front, Back, Right or Left.
+- Open a sketch work plane to draw or edit on XY, XZ or YZ with the existing 2D tools.
+  Sketch layers stay on their own planes. Sketch curves appear in the 3D viewport.
+- Create a solid box or cylinder by entering the dimensions, base plane and world origin.
+  The box origin is a base corner and the cylinder origin is its base center. Height follows the
+  plane normal (positive Z on XY, negative Y on XZ and positive X on YZ).
+- Click a solid to inspect it. Double-click it or use Object properties to edit it. Edits and
+  deletions are undoable. Save the model as .polycad. Files with solids or additional work planes
+  require PolyCAD 0.7.0 or later. Existing 2D files open in their XY drawing view.
+
+DXF and plot sheets cover the XY drawing. DXF reports omitted solids and non-XY sketch objects.
+
 Sketches, reusable geometry and sheets — 0.6.0
 ---------------------------------------------
 Open Sketch & Sheets on the toolbar or in More. Commands are also available via Ctrl+Shift+P.

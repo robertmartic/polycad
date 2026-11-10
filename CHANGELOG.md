@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.7.0
+
+- View the model in 3D with orbit, pan, zoom, fit and standard orthographic views.
+- Open XY, XZ or YZ work planes to draw and edit sketches with the existing 2D tools.
+- Create analytic solid boxes and cylinders. Select a solid to edit its dimensions, base plane or origin.
+- Save solids and work-plane sketches in the native drawing and undo or redo solid changes.
+
 ## 0.6.0
 
 - Add coincident, parallel and perpendicular sketch constraints. Driving length edits update connected lines and report conflicts.

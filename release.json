@@ -1,32 +1,32 @@
 {
   "Format": 1,
-  "Version": "0.6.0",
-  "BuildProvenance": "5fa0784efabd4db4879db2cc3caa0b0f",
+  "Version": "0.7.0",
+  "BuildProvenance": "0fd129b8aab04b70bd37f638da5abc52",
   "Assets": [
     {
-      "Name": "PolyCAD-0.6.0-setup.exe",
-      "Bytes": 77970008,
-      "Sha256": "6ce7799f09f53abfaafb29a6d7683dc1df0a2f0ca38c3a079f508483cd66ab2d"
+      "Name": "PolyCAD-0.7.0-setup.exe",
+      "Bytes": 77999970,
+      "Sha256": "806f12694554bee2eb576f0fa3d106ed33217ddc804559d145eb8cb2609b3469"
     },
     {
-      "Name": "PolyCAD-0.6.0-maintenance.exe",
-      "Bytes": 445813,
-      "Sha256": "fc5fff75bfee432a25c9c74dceeb83d58dd77ca22cd787938df586e35fdf46d3"
+      "Name": "PolyCAD-0.7.0-maintenance.exe",
+      "Bytes": 445811,
+      "Sha256": "a0dbab9527840c056b4979172ff4682f8d5744ae3b15b869c7e8eb88fcd1f553"
     },
     {
-      "Name": "PolyCAD-0.6.0-win-x64.zip",
-      "Bytes": 81524659,
-      "Sha256": "ffc7ab1922d15df54848f68e5e90f0aa6f63019bc6d9094887967c0a81fd70a2"
+      "Name": "PolyCAD-0.7.0-win-x64.zip",
+      "Bytes": 81550921,
+      "Sha256": "ab9f30556297d275a1422c873fa71fe24edc367f0786be4bf92504b289526a97"
     },
     {
-      "Name": "PolyCAD-0.6.0-manifest.json",
+      "Name": "PolyCAD-0.7.0-manifest.json",
       "Bytes": 75290,
-      "Sha256": "6f2ba7c3c7fd1866fce8e3aef8f7784bc2b0182b795343b722aff604bed941a6"
+      "Sha256": "e6993d0c3bf0350fa617648cdb4e09ee5323defcaad645baef2267ce6ca38cbb"
     },
     {
-      "Name": "PolyCAD-0.5.0-to-0.6.0-delta.zip",
-      "Bytes": 2227605,
-      "Sha256": "5edc3837bd634c0c089ca720d90ff50c95f429a3e45f492d0bd4541c2a6d5f27"
+      "Name": "PolyCAD-0.6.0-to-0.7.0-delta.zip",
+      "Bytes": 2253857,
+      "Sha256": "34713161bed46a80102a54091e190b09da6256b2db3490ef39693d13d2f1735c"
     }
   ]
 }
