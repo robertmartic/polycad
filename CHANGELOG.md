@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.7.2
+
+- Open PolyCAD or create a new Part in the 3D Model workspace.
+- Start a 2D sketch on the XY, XZ or YZ origin plane. Finish the sketch to return to the previous 3D view, then select the sketch to create an Extrude.
+- Find origin planes, sketches, features and their resulting bodies in the resizable Model Browser. Select objects in either the browser or viewport, reopen sketches and control visibility.
+- Use contextual 3D Model and Sketch ribbons with names under the vector icons. Find New 2D Drawing in Commands for standalone drafting.
+
 ## 0.7.1
 
 - Create a parametric solid from a closed straight-edged contour or a circle.

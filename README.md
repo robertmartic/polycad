@@ -1,9 +1,9 @@
-# PolyCAD 0.7.1
+# PolyCAD 0.7.2
 
-Standalone Windows x64 2D CAD editor. Free to use; no account, subscription, activation or telemetry.
+Standalone Windows x64 CAD editor with 3D part modeling and 2D drafting. Free to use; no account, subscription, activation or telemetry.
 
-[Download the installer](https://downloads.polystudio.tools/polycad/0.7.1/PolyCAD-0.7.1-setup.exe).
-Download PolyCAD-0.7.1-setup.exe. Portable ZIP is also available.
+[Download the installer](https://downloads.polystudio.tools/polycad/0.7.2/PolyCAD-0.7.2-setup.exe).
+Download PolyCAD-0.7.2-setup.exe. Portable ZIP is also available.
 
 Create, open and save native .polycad drawings. Draw Lines, Circles, straight Polylines and Rectangles with live preview,
 endpoint/midpoint/center/grid snapping and Ortho. Select objects (Ctrl-click to add/remove), Delete,
@@ -42,7 +42,7 @@ Successful Save or explicit discard/normal close clears that document's snapshot
 Recovery failures are shown in Document safety; manual saving remains available.
 Ortho, snap choices and snap-grid spacing are remembered, independently of document geometry.
 
-Dimensions are not implemented yet. Basic DXF exchange is described below.
+Driving dimensions and basic DXF exchange are described below.
 
 
 Windows 10 build 19041 or newer / Windows 11, x64. Self-contained; no separate .NET installation.
@@ -234,3 +234,17 @@ preserving their curve, and full-turn Arcs become Circles. These changes are rep
 Layer names must be valid and unique in DXF; rename incompatible names before export.
 The complete export is checked by reading it back, then written through a verified
 temporary file. Existing destinations are protected against conflicting changes.
+
+## 3D Part workspace in 0.7.2
+
+New parts start in 3D. Choose **Start 2D Sketch**, select an origin plane in the viewport
+or Model Browser, draw a profile and choose **Finish Sketch**. Select the finished sketch
+and choose **Extrude** to create a linked solid from a supported closed profile.
+
+Double-click a sketch in Model Browser to reopen it. Right-click an item for its available
+actions. A sketch used by an Extrude can be edited or hidden, and can be deleted once the
+dependent feature is removed. Drag the browser divider to resize it or use **Model Browser**
+in View to hide or restore it. Use **Commands > New 2D Drawing** for standalone drafting.
+
+PolyCAD 0.7.2 opens older native drawings. Files that contain named sketches, saved origin
+visibility or named/hidden 3D features require 0.7.2 or later.
