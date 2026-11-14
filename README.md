@@ -1,9 +1,15 @@
-# PolyCAD 0.7.2
+# PolyCAD 0.8.0
 
-Standalone Windows x64 CAD editor with 3D part modeling and 2D drafting. Free to use; no account, subscription, activation or telemetry.
+Standalone Windows x64 CAD editor with 3D part modeling and 2D drafting. Free to use.
 
-[Download the installer](https://downloads.polystudio.tools/polycad/0.7.2/PolyCAD-0.7.2-setup.exe).
-Download PolyCAD-0.7.2-setup.exe. Portable ZIP is also available.
+- [Windows installer](https://downloads.polystudio.tools/polycad/0.8.0/PolyCAD-0.8.0-setup.exe)
+- [Portable ZIP](https://downloads.polystudio.tools/polycad/0.8.0/PolyCAD-0.8.0-win-x64.zip)
+
+This is the first stable native Rust edition. From an installed PolyCAD 0.7.2, open **About → Updates**, check for updates and apply 0.8.0. After updating, use **File → Updates**. Rust Preview uses a separate update channel. To switch from a Preview-only installation to stable, use the installer above.
+
+New parts start in the redesigned 3D workspace. Create sketches on XY, XZ or YZ, finish a sketch and extrude a supported closed profile. **Save As** also offers DXF. Trim, Extend, Offset, Break and Join use a preview with Apply and Cancel. Line, Polyline, Move and Copy accept exact distances in the pointer direction. Recent entries and selected recovery snapshots can be removed from the application.
+
+The release history below also describes previous editions.
 
 ## PolyCAD Rust Preview 0.7.4
 
