@@ -1,15 +1,15 @@
-# PolyCAD 0.8.3
+# PolyCAD 0.8.4
 
 Standalone Windows x64 CAD editor with 3D part modeling and 2D drafting. Free to use.
 
-- [Windows installer](https://downloads.polystudio.tools/polycad/0.8.3/PolyCAD-0.8.3-setup.exe)
-- [Portable ZIP](https://downloads.polystudio.tools/polycad/0.8.3/PolyCAD-0.8.3-win-x64.zip)
+- [Windows installer](https://downloads.polystudio.tools/polycad/0.8.4/PolyCAD-0.8.4-setup.exe)
+- [Portable ZIP](https://downloads.polystudio.tools/polycad/0.8.4/PolyCAD-0.8.4-win-x64.zip)
 
-In the installed Rust release, choose **File → Updates** to install 0.8.3. In the older stable **0.7.2**, choose **About → Updates → Check for updates**. Rust Preview uses a separate channel. To switch from a Preview-only installation to stable, use the installer above.
+In the installed Rust release, choose **File → Updates** to install 0.8.4. In the older stable **0.7.2**, choose **About → Updates → Check for updates**. Rust Preview uses a separate channel. To switch from a Preview-only installation to stable, use the installer above.
 
-The 3D workspace now displays visible edges, smooth shading and the surface under the pointer. Click the orientation cube to change views, use **Fit Selection** to frame an object, and orbit around the selected solid. Right-click a supported top face for **Face Sketch**. Extrude and modeling features preview before **Apply**. The application header displays the new artwork and version number.
+Use **Start Sketch** to pick an origin plane or a supported flat face. The camera aligns to the sketch and returns to the previous view after **Finish Sketch**. The ViewCube rotates with the camera. Rectangle and Circle preview at the snapped point, and Grid Snap shows its target.
 
-Select a solid and choose **Face Sketch** to sketch on its top face. Finish the sketch and use **Extrude** to extend the part. To make a circular through hole, reselect the body, choose **Cut**, and choose its circular face sketch. **Revolve** turns a closed straight-edge sketch 360° around its Y axis. **Union** and **Intersect** support coaxial cylinders with a common base. **Fillet** and **Chamfer** support the upper rim of a cylinder and the vertical corners of an aligned rectangular extrusion. Open a feature in Model Browser to edit its parameters and inspect its inputs and volume. Files using those part features require 0.8.2 or later.
+Select model edges and hold **Ctrl** or **Shift** for multiple edges. **Fillet** and **Chamfer** support vertical rectangular corners and outer cylinder rims. **Revolve** accepts a contour, an axis, and a signed angle. **Join** and **Cut** support rectangular profiles and coaxial cylinders with matching axis and height. Documents using the new feature parameters require 0.8.4 or later.
 
 The release history below also describes previous editions.
 
