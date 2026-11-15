@@ -1,13 +1,13 @@
-# PolyCAD 0.8.1
+# PolyCAD 0.8.2
 
 Standalone Windows x64 CAD editor with 3D part modeling and 2D drafting. Free to use.
 
-- [Windows installer](https://downloads.polystudio.tools/polycad/0.8.1/PolyCAD-0.8.1-setup.exe)
-- [Portable ZIP](https://downloads.polystudio.tools/polycad/0.8.1/PolyCAD-0.8.1-win-x64.zip)
+- [Windows installer](https://downloads.polystudio.tools/polycad/0.8.2/PolyCAD-0.8.2-setup.exe)
+- [Portable ZIP](https://downloads.polystudio.tools/polycad/0.8.2/PolyCAD-0.8.2-win-x64.zip)
 
-This release updates the native Rust edition with revised Windows packaging. From an installed PolyCAD 0.7.2, open **About → Updates**, check for updates and apply 0.8.1. From PolyCAD 0.8.0, open **File → Updates** and check for 0.8.1. If Windows quarantined the installed executable, use the 0.8.1 installer above. Rust Preview uses a separate update channel. To switch from a Preview-only installation to stable, use the installer above.
+In the installed Rust release, choose **File → Updates** to install 0.8.2. In the older stable **0.7.2**, choose **About → Updates → Check for updates**. Rust Preview uses a separate channel. To switch from a Preview-only installation to stable, use the installer above.
 
-New parts start in the redesigned 3D workspace. Create sketches on XY, XZ or YZ, finish a sketch and extrude a supported closed profile. **Save As** also offers DXF. Trim, Extend, Offset, Break and Join use a preview with Apply and Cancel. Line, Polyline, Move and Copy accept exact distances in the pointer direction. Recent entries and selected recovery snapshots can be removed from the application.
+Select a solid and choose **Face Sketch** to sketch on its top face. Finish the sketch and use **Extrude** to extend the part. To make a circular through hole, reselect the body, choose **Cut**, and choose its circular face sketch. **Revolve** turns a closed straight-edge sketch 360° around its Y axis. **Union** and **Intersect** support coaxial cylinders with a common base. **Fillet** and **Chamfer** support the upper rim of a cylinder and the vertical corners of an aligned rectangular extrusion. Open a feature in Model Browser to edit its parameters and inspect its inputs and volume. Files using the new features require 0.8.2 or later.
 
 The release history below also describes previous editions.
 
