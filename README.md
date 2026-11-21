@@ -1,4 +1,27 @@
-# PolyCAD 0.8.4
+# PolyCAD 0.9.0
+
+Standalone Windows x64 CAD application with precise solid modeling and 2D drafting. Free to use, with no .NET runtime requirement.
+
+- [Windows installer](https://downloads.polystudio.tools/polycad/0.9.0/PolyCAD-0.9.0-setup.exe)
+- [Portable ZIP](https://downloads.polystudio.tools/polycad/0.9.0/PolyCAD-0.9.0-win-x64.zip)
+
+In an installed Rust release choose **File → Updates**. In stable 0.7.2 choose **About → Updates → Check for updates**. Preview installations keep their separate channel; use the installer above to switch to stable.
+
+Build profiles with lines, arcs, holes and multiple closed regions. Use **Extrude**, **Revolve Create/Join/Cut**, general solid **Union/Intersect/Cut**, and **Fillet/Chamfer** on selected valid model edges, including box rims and hole rims. Hold **Ctrl** or **Shift** to select multiple edges.
+
+**Start Sketch** supports origin planes, planar model faces and tangent planes at selected curved surfaces. Tangent sketches remain planar. The camera preserves the sketch coordinate frame when aligning and returning to 3D.
+
+**Parameters** supports variables, formulas, units and bindings to driving dimensions, extrusion distance, finish size and revolution angle. Sketch constraints include Coincident, Parallel, Perpendicular, Horizontal, Vertical, Equal Length, Equal Radius, Concentric and Tangent for supported geometry. Components support up to 512 entities with explicit numerical work limits.
+
+Trim and extend polyline segments, offset full paths and join lines/arcs while retaining true curves. Import/export **STEP** for precise solids. Supported **ASCII DXF R12–2018** geometry includes curved lightweight polylines and spatial sketch planes. DXF solid output is triangulated. Save **PolyCAD projects** to retain feature history and references; new feature representations require 0.9.0 or later.
+
+The modeling kernel is **Open CASCADE Technology 7.9.3**, dynamically linked under LGPL 2.1 with its additional exception. [Corresponding OCCT source](https://codeload.github.com/Open-Cascade-SAS/OCCT/zip/refs/tags/V7_9_3). The package includes license texts and compatible build/replacement instructions under `licenses/cad-kernel/`. PolyCAD does not restrict replacing the LGPL libraries.
+
+Assemblies, generated engineering drawings and a complete persistent topology naming system remain future work. Invalid geometric operations are rejected without committing a partial document change.
+
+## Earlier releases
+
+### PolyCAD 0.8.4
 
 Standalone Windows x64 CAD editor with 3D part modeling and 2D drafting. Free to use.
 
