@@ -1,4 +1,27 @@
-# PolyCAD 0.9.5
+# PolyCAD 0.9.6
+
+Standalone Windows x64 mechanical CAD with precise solids, model-aware sketches, linked assemblies and engineering drawings. Free and local, with no .NET runtime requirement.
+
+- [Windows installer](https://downloads.polystudio.tools/polycad/0.9.6/PolyCAD-0.9.6-setup.exe)
+- [Portable ZIP](https://downloads.polystudio.tools/polycad/0.9.6/PolyCAD-0.9.6-win-x64.zip)
+- [User guide and current limits](PolyCAD-0.9.6-guide.md)
+
+Choose **File → Updates** in an installed stable Rust release. Stable C# 0.7.2 can also update through its existing updater. Preview installations retain their separate channel; use the installer to switch to stable. Save your work before updating.
+
+**New:** Trim complete circles, arcs and path segments against surrounding intersections and tangencies, with red hover previews and repeat editing. Click a segment, then Enter/Apply to confirm; Escape cancels. Use Modify → Explode to convert a polyline while preserving supported references. Profile diagnostics mark open endpoints/junctions, and advanced feature panels update Auto Preview after parameter changes.
+
+Advanced modeling includes configurable Extrude Create/Join/Cut and extent modes, Hole, Shell, Draft, Loft, Sweep, body transforms/mirrors and rectangular/circular patterns of bodies or modifying feature changes. Suppression, conservative geometric references and guarded background computations protect transactional changes. Inspect sections and exact edge measurements; assign material density for mass and centroid information.
+
+Build linked Assemblies with component instances, fixed/free placement, planar/cylindrical references, placement constraints, interference checks and BOM. Create linked Drawings with multiple sheets, orthographic/isometric/section/detail views, model-based dimensions, BOM/balloons and multi-page PDF/DXF. Pack the project with its linked source files into a portable ZIP.
+
+Existing Sketch tools, selected-edge Fillet/Chamfer, Revolve Create/Join/Cut, solid Booleans, Parameters, STEP/DXF exchange, Undo/Redo and recovery remain available. STEP imports multiple solids as separate body entries. Save native **.polycad** files for history and references. New document capabilities require 0.9.6; older versions reject unsupported files.
+
+Current limits include nested assemblies, complete persistent topology naming, unsupported ellipse projections and the documented single-region Sweep/Loft requirements. Ambiguous references and invalid geometric operations are reported instead of silently changing another object. This release does not claim complete Inventor parity.
+
+The solid kernel is dynamically linked **Open CASCADE Technology 7.9.3**, under LGPL 2.1 with its additional exception. [Corresponding OCCT source](https://codeload.github.com/Open-Cascade-SAS/OCCT/zip/refs/tags/V7_9_3). Included `licenses/cad-kernel/` files preserve notices and compatible build/replacement instructions. PolyCAD does not restrict replacing the LGPL libraries.
+
+## Earlier releases
+### PolyCAD 0.9.5
 
 Standalone Windows x64 mechanical CAD with precise solids, model-aware sketches, linked assemblies and engineering drawings. Free and local, with no .NET runtime requirement.
 
